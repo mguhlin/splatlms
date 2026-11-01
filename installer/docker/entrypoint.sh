@@ -11,7 +11,7 @@ if [ ! -f /data/.installed ]; then
   : "${ADMIN_EMAIL:?Set ADMIN_EMAIL}"
   : "${ADMIN_PASSWORD:?Set ADMIN_PASSWORD}"
   # Credentials stay in the environment; never interpolate them into shell code.
-  su -s /bin/sh www-data -c 'php /srv/sapiqo/bin/setup.php --from-env'
+  su -s /bin/sh www-data -c 'php /srv/splatlms/bin/setup.php --from-env'
   touch /data/.installed
   echo "==> Admin: ${ADMIN_EMAIL}  (change the password after first login)"
 fi

@@ -1,0 +1,10 @@
+Concept maps, diagrams and purposeful visuals
+
+Relationships need labels
+Use ConceptSplat when the learner needs to arrange ideas and explain relationships. Use DiagramSplat when a structured diagram written in text syntax fits the task. In either case, an unlabeled arrow can hide weak thinking. Connect sunlight, surface temperature and water loss with words that describe the relationship. Ask why the connection is reasonable and what evidence would challenge it.
+
+Create assets that explain
+ImageSplat can annotate and adjust an image; BackdropSplat can remove a background. FontSplat can create lettering and compositions. GIFsplat can show a short sequence, and MemeSplat can combine a caption with an image. Choose an asset because it clarifies the idea. A diagram or animation still needs a text explanation. Use descriptive labels, high contrast and a readable size, and avoid making color the only carrier of meaning.
+
+Pause and explain a connection
+Create one small asset for your lesson. Explain in a sentence what the learner should notice and why it supports the goal. Test whether the explanation still makes sense without the color cues. Draw and Sketch or Coloring Book may be enough for a simple response. SketchSplat VR is an optional extension, with a flat alternative for learners who cannot or prefer not to use an immersive view.

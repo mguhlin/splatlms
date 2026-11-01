@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 $root = dirname(__DIR__);
-foreach (['config','helpers','db','auth','account_security','learning','notifications','courses','discovery','quiz','editor','serve','security','api','groups','orgs','lti','cc_import','oneroster','backup'] as $name) require_once "$root/sapiqo/app/$name.php";
+foreach (['config','helpers','db','auth','account_security','learning','notifications','courses','discovery','quiz','editor','serve','security','api','groups','orgs','lti','cc_import','oneroster','backup'] as $name) require_once "$root/splatlms/app/$name.php";
 $checks = 0;
 function check(bool $ok, string $message): void {
     global $checks;
@@ -40,6 +40,11 @@ check(!quiz_grade(quiz_find('sample','quiz-1'), ['q0'=>[1], 'q1'=>[0]], ['q0','q
 check(safe_media_ref("java\nscript:alert(1)") === '', 'Control-character URI rejected');
 check(!str_contains(cr_inline('[x](javascript:alert(1))'), 'href='), 'Markdown script URL rejected');
 check(!str_contains(editor_sanitize_html('<img/onerror=alert(1) src="media/x.png">'), 'onerror'), 'Malformed event handler removed');
+$media = editor_sanitize_html('<video controls poster="media/poster.jpg" onerror="alert(1)"><source src="media/lesson.mp4" type="video/mp4"><track kind="captions" srclang="en" label="English" src="media/lesson.vtt" default></video>');
+check(str_contains($media, '<video controls=') && str_contains($media, 'media/lesson.mp4') && str_contains($media, 'media/lesson.vtt') && !str_contains($media, 'onerror'), 'Captioned local video survives without event handlers');
+$media = editor_sanitize_html('<video/src="javascript:alert(1)" poster="javascript:alert(2)" onloadeddata="alert(3)"><source src="data:text/html,bad"><track src="javascript:bad"></video>');
+check(!str_contains($media, 'javascript:') && !str_contains($media, 'data:text/html') && !str_contains($media, 'onloadeddata'), 'Malicious media source, poster and events are removed');
+
 check(!str_contains(editor_sanitize_html('<a href="jav&#x61;script:alert(1)">x</a>'), 'href='), 'Entity-obfuscated script removed');
 check(!str_contains(editor_sanitize_html('<iframe srcdoc="bad" src="https://example.org"></iframe>'), 'iframe'), 'srcdoc iframe removed');
 check(!url_is_safe_public('http://127.0.0.1/'), 'Local SSRF rejected');
@@ -87,13 +92,13 @@ api_key_revoke($keyId);
 check(api_key_check() === null, 'Revoked token rejected');
 foreach (['good.tar'=>true,'good.tar.gz'=>true,'good.zip'=>true,'traversal.tar'=>false,'absolute.tar'=>false,
     'link.tar'=>false,'traversal.zip'=>false,'link.zip'=>false,'bomb.zip'=>false] as $name=>$expected) {
-    check(archive_entries_safe(getenv('SAPIQO_TEST_ARCHIVES').'/'.$name) === $expected, 'Archive validation: '.$name);
+    check(archive_entries_safe(getenv('SPLATLMS_TEST_ARCHIVES').'/'.$name) === $expected, 'Archive validation: '.$name);
 }
-$report = import_oneroster(getenv('SAPIQO_TEST_ARCHIVES').'/traversal.zip', 'traversal.zip');
+$report = import_oneroster(getenv('SPLATLMS_TEST_ARCHIVES').'/traversal.zip', 'traversal.zip');
 check(!empty($report['errors']), 'OneRoster extraction errors are reported');
-check(package_file(getenv('SAPIQO_COURSES'), '../../etc/passwd') === null, 'Cartridge manifest cannot read external files');
+check(package_file(getenv('SPLATLMS_COURSES'), '../../etc/passwd') === null, 'Cartridge manifest cannot read external files');
 $report=[];
-check(_cc_lesson_content(getenv('SAPIQO_COURSES'), '../config.local.php', getenv('SAPIQO_COURSES'), $report) === '', 'Cartridge missing/traversal gracefully rejected');
+check(_cc_lesson_content(getenv('SPLATLMS_COURSES'), '../config.local.php', getenv('SPLATLMS_COURSES'), $report) === '', 'Cartridge missing/traversal gracefully rejected');
 $knownSecret = mfa_base32_encode('12345678901234567890');
 check(mfa_totp($knownSecret, 1, 8) === '94287082', 'RFC 6238 test vector');
 check(mfa_decrypt(mfa_encrypt($knownSecret)) === $knownSecret, 'MFA encryption round trip');
@@ -146,11 +151,11 @@ db_run('DELETE FROM cohort_schedules WHERE group_id=? AND course_id=?',[$ag,$aci
 check(!assignment_can_grade($acid,$manager),'Content access does not imply student-work access');
 db_run('INSERT INTO course_instructors (course_id,user_id) VALUES (?,?)',[$acid,$manager]);
 check(assignment_can_grade($acid,$manager) && !assignment_can_grade($cid,$manager),'Instructor access is course-scoped');
-$backup = create_backup(getenv('SAPIQO_DATA').'/backups');
+$backup = create_backup(getenv('SPLATLMS_DATA').'/backups');
 check(archive_entries_safe($backup), 'Backup passes archive validation');
 $backupContents = new PharData($backup);
 check(isset($backupContents['db/snapshot.sqlite']), 'Backup contains SQLite snapshot');
-$restoredFile = getenv('SAPIQO_DATA').'/snapshot-check.sqlite';
+$restoredFile = getenv('SPLATLMS_DATA').'/snapshot-check.sqlite';
 file_put_contents($restoredFile, $backupContents['db/snapshot.sqlite']->getContent());
 $snapshotDb = new PDO('sqlite:'.$restoredFile);
 check($snapshotDb->query('PRAGMA integrity_check')->fetchColumn() === 'ok', 'Backup snapshot integrity');

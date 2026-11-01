@@ -1,3 +1,14 @@
+# SplatLMS changes
+
+## 1.0.0 — October 31, 2026
+
+- First SplatLMS product release, adapted from Sapiqo LMS 1.13.1 with original attribution retained.
+- Independent code/data/environment/update-edition namespace and SplatWorks branding.
+- SplatWorks Educator included as the first course; synthetic narrated slide overviews are optional and clearly labeled.
+- Inline local media and caption elements survive the defensive course HTML sanitizer.
+
+The following entries are preserved upstream history, not previous SplatLMS releases.
+
 # Changelog
 
 ## 1.13.1 — October 30, 2026

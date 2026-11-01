@@ -1,4 +1,4 @@
-const {chromium}=require(process.env.SAPIQO_PLAYWRIGHT || 'playwright');
+const {chromium}=require(process.env.SPLATLMS_PLAYWRIGHT || 'playwright');
 const assert=require('node:assert/strict');
 let browser;
 (async()=>{

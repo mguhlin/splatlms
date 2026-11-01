@@ -1,28 +1,28 @@
 /* ===========================================================================
-   Sapiqo Courses — design system
+   SplatLMS Courses — design system
    Navy + gold, warm and professional. Shared by the catalog and course reader.
    =========================================================================== */
 
 :root {
   /* Brand palette */
-  --navy-900: #071b38;
-  --navy-800: #0b2e5b;
-  --navy-700: #123e77;
-  --navy-600: #1a4f93;
-  --navy-500: #2b62aa;
-  --gold-500: #f4b41a;
-  --gold-400: #ffc845;
-  --gold-300: #ffdb7d;
+  --navy-900: #29125e;
+  --navy-800: #4720a4;
+  --navy-700: #6d38e8;
+  --navy-600: #7444e9;
+  --navy-500: #8d67ed;
+  --gold-500: #f5b942;
+  --gold-400: #ffd16c;
+  --gold-300: #ffe3a6;
   --gold-ink: #6b4c00;
 
   /* Neutrals */
-  --ink: #16202e;
+  --ink: #172033;
   --ink-soft: #405066;
-  --line: #e2e8f2;
+  --line: #e2deed;
   --line-strong: #cbd6e6;
-  --bg: #f5f7fb;
+  --bg: #f8f6fc;
   --surface: #ffffff;
-  --surface-alt: #eef2f9;
+  --surface-alt: #f1edfa;
 
   /* Accents */
   --success: #1f8a5b;
@@ -170,3 +170,8 @@ img { max-width: 100%; height: auto; }
   transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .progress--on-navy { background: rgba(255, 255, 255, 0.18); }
+
+/* SplatWorks brand mark shared with SplatLMS. */
+.brand__mark{font-size:0;background:#fff url('../img/splatworks-logo.png') center/contain no-repeat;box-shadow:none}
+.topbar{background:#fff;color:#172033;border-bottom:1px solid #e2deed}.topbar .brand{color:#172033}
+.content video{display:block;width:100%;height:auto}.nav-toggle{color:#4720a4}

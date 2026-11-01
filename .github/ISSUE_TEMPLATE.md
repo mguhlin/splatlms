@@ -12,7 +12,7 @@ Describe what happened or what you would like to improve.
 
 ## Environment
 
-- Sapiqo version:
+- SplatLMS version:
 - PHP version / database:
 - Operating system / browser:
 

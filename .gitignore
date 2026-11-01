@@ -3,13 +3,13 @@ Thumbs.db
 *.log
 .vscode/
 node_modules/
-sapiqo-data/data/*
-!sapiqo-data/data/**/.gitkeep
-sapiqo-data/data/badge-placeholder.png
+splatlms-data/data/*
+!splatlms-data/data/**/.gitkeep
+splatlms-data/data/badge-placeholder.png
 .git/
 **/__pycache__/
 
-sapiqo-data/config.local.php
+splatlms-data/config.local.php
 **/config.local.php
 **/.env
 **/.env.*
@@ -20,3 +20,6 @@ sapiqo-data/config.local.php
 *.pem
 *.key
 **/.schema-v*
+
+/node_modules
+/release/

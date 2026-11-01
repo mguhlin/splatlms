@@ -5,7 +5,7 @@ site/
 docs/
 *.log
 node_modules/
-sapiqo-data/
+splatlms-data/
 **/config.local.php
 **/.env*
 **/*.sqlite

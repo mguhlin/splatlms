@@ -1,4 +1,4 @@
-# Sapiqo — turnkey container. Bundles every PHP extension (gd, zip, pdo_mysql,
+# SplatLMS — turnkey container. Bundles every PHP extension (gd, zip, pdo_mysql,
 # pdo_sqlite, mbstring, curl, dom/simplexml/xml, phar, openssl, fileinfo, sodium)
 # so there is nothing to install on the host.  Build context = the courses/ root.
 FROM php:8.3-apache
@@ -19,16 +19,16 @@ RUN set -eux; \
 # pdo_sqlite, curl, dom, simplexml, xml, phar, openssl, fileinfo, sodium, zlib, json
 # are already compiled into the official php:8.3 image.
 
-# App layout inside the image: /srv/sapiqo (code) + /srv/content (courses).
-# Data lives on a volume at /data (SAPIQO_DATA), so it persists across upgrades.
-ENV SAPIQO_DATA=/data
-COPY installer/docker/uploads.ini /usr/local/etc/php/conf.d/sapiqo-uploads.ini
+# App layout inside the image: /srv/splatlms (code) + /srv/content (courses).
+# Data lives on a volume at /data (SPLATLMS_DATA), so it persists across upgrades.
+ENV SPLATLMS_DATA=/data
+COPY installer/docker/uploads.ini /usr/local/etc/php/conf.d/splatlms-uploads.ini
 WORKDIR /srv
-COPY sapiqo/  /srv/sapiqo/
+COPY splatlms/  /srv/splatlms/
 COPY content/ /srv/content/
 
 # Apache document root = the LMS public/ folder.
-RUN rm -rf /var/www/html && ln -s /srv/sapiqo/public /var/www/html
+RUN rm -rf /var/www/html && ln -s /srv/splatlms/public /var/www/html
 COPY installer/docker/000-default.conf /etc/apache2/sites-available/000-default.conf
 COPY installer/docker/entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh

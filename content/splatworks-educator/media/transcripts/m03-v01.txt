@@ -1,0 +1,10 @@
+From written explanation to publication
+
+Choose the form after the purpose
+Start with the explanation you want students to construct. WriteSplat helps develop and format the text. ShowSplat sequences an explanation for presentation. LayoutSplat designs a publication or ebook. These are different communication forms, not a checklist that every learner must complete. PlanSplat can organize the work, and MarkdownSplat can preserve structured source text when that format is useful.
+
+One claim, three useful moments
+For our common example, draft a short claim, cite two observations and explain a limitation. A three-slide version can show the question, evidence and recommendation. A one-page guide can use the same reasoning with a chart and text summary. Avoid copying a dense paragraph onto every slide. Give the audience one clear purpose for each visual moment.
+
+Keep source and export
+Keep the editable source as well as the finished export. Import and export conversions may change layout, fonts or other features, so inspect the resulting file. PDFsplat can help annotate, organize or present a PDF when that suits the lesson. Before you share, check the reading sequence, image descriptions and whether the document still communicates the main reasoning without your narration.

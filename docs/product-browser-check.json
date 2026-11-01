@@ -1,0 +1,15 @@
+{
+  "firstCourse": "SplatWorks Educator",
+  "coursePublished": true,
+  "optionalOverviewsLabeled": true,
+  "inlineVideo": {
+    "duration": 90.659002,
+    "readyState": 4,
+    "tracks": 1
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "scriptErrors": []
+}

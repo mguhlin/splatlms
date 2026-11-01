@@ -473,7 +473,7 @@
   .course-home__hero h1 { font-size: 1.7rem; }
 }
 
-/* --- Sapiqo badge toast (only appears when running inside the LMS) -------- */
+/* --- SplatLMS badge toast (only appears when running inside the LMS) -------- */
 .lms-toast {
   position: fixed;
   right: 20px;

@@ -1,0 +1,5 @@
+site,surface,temperature_c,observation_note
+Tree shade,soil,25,Fictional single observation; partial shade
+Open lawn,grass,29,Fictional single observation; direct sun
+Sunny paving,paving,34,Fictional single observation; direct sun
+Building shade,paving,27,Fictional single observation; building shade

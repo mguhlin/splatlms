@@ -6,7 +6,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 def run(*args, env=None):
     subprocess.run(args, cwd=ROOT, env=env, check=True)
 
-with tempfile.TemporaryDirectory(prefix='sapiqo-tests-') as scratch:
+with tempfile.TemporaryDirectory(prefix='splatlms-tests-') as scratch:
     base=pathlib.Path(scratch); data=base/'data'; courses=base/'content'; archives=base/'archives'
     data.mkdir(); courses.mkdir(); archives.mkdir()
     shutil.copytree(ROOT/'content/assets', courses/'assets')
@@ -18,7 +18,7 @@ with tempfile.TemporaryDirectory(prefix='sapiqo-tests-') as scratch:
     for slug, status in [('sample','published'),('draft','draft'),('assignment','published')]:
         folder=courses/slug; folder.mkdir(); obj=dict(sample, slug=slug, status=status)
         (folder/'course.json').write_text(json.dumps(obj));(folder/'index.html').write_text('<!doctype html><title>Sample</title>')
-        (folder/'source.md').write_text('private answer source');(folder/'media').mkdir();(folder/'media/video.mp4').write_bytes(b'0123456789')
+        (folder/'badge.png').write_bytes((ROOT/'splatlms/public/assets/img/favicon-32.png').read_bytes());(folder/'source.md').write_text('private answer source');(folder/'media').mkdir();(folder/'media/video.mp4').write_bytes(b'0123456789')
     def tar(name, entries):
         with tarfile.open(archives/name, 'w:gz' if name.endswith('.gz') else 'w', format=tarfile.USTAR_FORMAT) as out:
             for path, kind in entries:
@@ -32,12 +32,12 @@ with tempfile.TemporaryDirectory(prefix='sapiqo-tests-') as scratch:
     with zipfile.ZipFile(archives/'link.zip','w') as z:
         info=zipfile.ZipInfo('link');info.create_system=3;info.external_attr=(0o120777<<16);z.writestr(info,'/etc/passwd')
     raw=bytearray((archives/'good.zip').read_bytes());pos=raw.index(b'PK\x01\x02');struct.pack_into('<I',raw,pos+24,3*1024**3);(archives/'bomb.zip').write_bytes(raw)
-    env=dict(os.environ,SAPIQO_DATA=str(data),SAPIQO_COURSES=str(courses),SAPIQO_TEST_ARCHIVES=str(archives))
+    env=dict(os.environ,SPLATLMS_DATA=str(data),SPLATLMS_COURSES=str(courses),SPLATLMS_TEST_ARCHIVES=str(archives))
     run('php',str(ROOT/'tests/security.php'),env=env)
     restore_data=base/'restored';restore_data.mkdir()
     restore_courses=base/'restored-content';restore_courses.mkdir()
-    backup=next((data/'backups').glob('sapiqo-backup-*'))
-    run('php',str(ROOT/'sapiqo/bin/restore.php'),str(backup),'--force',env=dict(env,SAPIQO_DATA=str(restore_data),SAPIQO_COURSES=str(restore_courses)))
+    backup=next((data/'backups').glob('splatlms-backup-*'))
+    run('php',str(ROOT/'splatlms/bin/restore.php'),str(backup),'--force',env=dict(env,SPLATLMS_DATA=str(restore_data),SPLATLMS_COURSES=str(restore_courses)))
     import sqlite3
     with sqlite3.connect(restore_data/'data/lms.sqlite') as db:
         assert db.execute('PRAGMA integrity_check').fetchone()[0]=='ok'
@@ -46,7 +46,7 @@ with tempfile.TemporaryDirectory(prefix='sapiqo-tests-') as scratch:
     assert (restore_courses/'sample/media/video.mp4').read_bytes()==b'0123456789'
     print('Complete database/content backup/restore round trip passed',flush=True)
     import importlib.util
-    spec=importlib.util.spec_from_file_location('course_builder',ROOT/'sapiqo/creator/build_course.py')
+    spec=importlib.util.spec_from_file_location('course_builder',ROOT/'splatlms/creator/build_course.py')
     builder=importlib.util.module_from_spec(spec);spec.loader.exec_module(builder)
     assert 'href=' not in builder._inline('[bad](javascript:alert(1))')
     assert 'src="' not in builder._inline('![bad](data:text/html,test)')
@@ -59,13 +59,13 @@ with tempfile.TemporaryDirectory(prefix='sapiqo-tests-') as scratch:
         result=subprocess.run(['php','-l',str(file)],capture_output=True,text=True)
         if result.returncode: raise RuntimeError(result.stdout+result.stderr)
     for file in ROOT.rglob('*.sh'): run('bash','-n',str(file))
-    for file in list((ROOT/'content/assets/js').glob('*.js')) + list((ROOT/'sapiqo/public/assets/js').glob('*.js')): run('node','--check',str(file))
-    compile((ROOT/'sapiqo/creator/build_course.py').read_text(), 'build_course.py', 'exec')
+    for file in list((ROOT/'content/assets/js').glob('*.js')) + list((ROOT/'splatlms/public/assets/js').glob('*.js')): run('node','--check',str(file))
+    compile((ROOT/'splatlms/creator/build_course.py').read_text(), 'build_course.py', 'exec')
     print('PHP, JavaScript, shell, and Python syntax checks passed',flush=True)
     with socket.socket() as s:s.bind(('127.0.0.1',0));port=s.getsockname()[1]
     origin=f'http://127.0.0.1:{port}'
     log=open(base/'server.log','w+')
-    server=subprocess.Popen(['php','-S',f'127.0.0.1:{port}','-t',str(ROOT/'sapiqo/public'),str(ROOT/'sapiqo/public/router.php')],env=env,stdout=log,stderr=log)
+    server=subprocess.Popen(['php','-S',f'127.0.0.1:{port}','-t',str(ROOT/'splatlms/public'),str(ROOT/'splatlms/public/router.php')],env=env,stdout=log,stderr=log)
     cookies=http.cookiejar.CookieJar(); browser=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cookies))
     def req(path, payload=None, headers=None, client=browser):
         request=urllib.request.Request(origin+path,data=payload,headers=headers or {})
@@ -85,6 +85,10 @@ with tempfile.TemporaryDirectory(prefix='sapiqo-tests-') as scratch:
             except urllib.error.URLError:time.sleep(.1)
         fresh=urllib.request.build_opener()
         check(req('/login',b'email=x',client=fresh)[0]==419,'Empty CSRF cannot pass')
+        with fresh.open(origin+'/courses/sample/badge.png',timeout=10) as badge_response:
+            check(badge_response.status==200 and badge_response.read(8)==b'\x89PNG\r\n\x1a\n','Published catalog badge is public')
+        check(req('/courses/draft/badge.png',client=fresh)[0]==403,'Draft course badge stays private')
+        check(req('/courses/sample/media/video.mp4',client=fresh)[0]==403,'Public badge access does not expose lesson video')
         status,headers,html=req('/login');check(status==200,'Login renders')
         check("script-src 'self' 'nonce-" in headers.get('Content-Security-Policy',''),'Nonce CSP emitted')
         csrf=token(html)
@@ -139,7 +143,7 @@ with tempfile.TemporaryDirectory(prefix='sapiqo-tests-') as scratch:
         form=urllib.parse.urlencode({'title':'HTTP assignment','instructions':'Apply learning','max_points':'100','pass_percent':'70','resubmit':'1','_csrf':admincsrf}).encode()
         check(req('/admin/assignments/sample',form,client=adminclient)[0]==200,'Author creates submission assignment')
         html=req('/assignments/sample')[2];aid=re.findall(r'action="[^"]*/assignments/sample/(\d+)"',html)[-1]
-        boundary='sapiqo-http-fixture'
+        boundary='splatlms-http-fixture'
         parts=[]
         for name,value in [('_csrf',csrf),('revision','0'),('action','submit'),('body','HTTP response')]:parts.append(f'--{boundary}\r\nContent-Disposition: form-data; name="{name}"\r\n\r\n{value}\r\n')
         parts.append(f'--{boundary}\r\nContent-Disposition: form-data; name="file"; filename="evidence.txt"\r\nContent-Type: text/plain\r\n\r\nProtected evidence\r\n--{boundary}--\r\n')

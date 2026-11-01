@@ -1,9 +1,9 @@
-# Sapiqo turnkey installer - Windows (PowerShell).
+# SplatLMS turnkey installer - Windows (PowerShell).
 #
 #   powershell -ExecutionPolicy Bypass -File installer\install.ps1
 #   ...\install.ps1 -Email you@x.edu -Password 'Secret123' -First Admin -Last User
 #
-# Enables the PHP extensions Sapiqo needs (in php.ini), creates the data folder +
+# Enables the PHP extensions SplatLMS needs (in php.ini), creates the data folder +
 # config, builds the database, and creates the administrator. Run from the
 # courses\ project. The installer\ folder can be deleted afterward.
 
@@ -14,8 +14,8 @@ param(
   [string]$Last = "User",
   [ValidateSet('sqlite','mysql')][string]$Db = "sqlite",
   [string]$MysqlHost = "127.0.0.1",
-  [string]$MysqlDb = "sapiqo",
-  [string]$MysqlUser = "sapiqo",
+  [string]$MysqlDb = "splatlms",
+  [string]$MysqlUser = "splatlms",
   [string]$MysqlPass = "",
   [int]$Port = 8000
 )
@@ -25,8 +25,8 @@ function Die($m){ Write-Host "`nERROR: $m" -ForegroundColor Red; exit 1 }
 
 $Here = Split-Path -Parent $MyInvocation.MyCommand.Path   # courses\installer
 $Root = Split-Path -Parent $Here                          # courses
-$Code = Join-Path $Root "sapiqo"
-$Data = if ($env:SAPIQO_DATA) { $env:SAPIQO_DATA } else { Join-Path $Root "sapiqo-data" }
+$Code = Join-Path $Root "splatlms"
+$Data = if ($env:SPLATLMS_DATA) { $env:SPLATLMS_DATA } else { Join-Path $Root "splatlms-data" }
 
 $php = (Get-Command php -ErrorAction SilentlyContinue)
 if (-not $php) { Die "PHP is not on PATH. Install PHP 8.1+ (https://windows.php.net/download) and add it to PATH." }
@@ -92,7 +92,7 @@ return [
 }
 
 Say "Setting up the database and administrator..."
-$env:SAPIQO_DATA = $Data
+$env:SPLATLMS_DATA = $Data
 & php (Join-Path $Code "bin\setup.php") --email $Email --password $Password --first $First --last $Last
 if ($LASTEXITCODE -ne 0) { Die "Setup failed (see above)." }
 

@@ -1,0 +1,10 @@
+Walkthrough: a one-minute evidence explainer
+
+Storyboard the reasoning
+Plan a forty-five to seventy-five second explanation. Use three moments: the question and claim, the chart and evidence, and a limitation with a next observation. Draft about one hundred to one hundred forty words. Use the supplied fictional data or a non-sensitive classroom dataset, and label it honestly. Keep the chart’s unit labels visible.
+
+Build and revise
+Choose a recording or slide-and-text route. Record narration in AudioSplat if helpful, then assemble the explanation in ClipSplat or VideoSplat. Use MediaSplat for a simple trim or join. Remove material that does not help the audience follow the reasoning. Keep the editable project so you can revise after feedback rather than starting again from the exported video.
+
+Test what the audience can learn
+Ask a partner to state your claim, verify the two values and name the limitation. Test the explanation without sound. Correct captions and provide the transcript. Your deliverable is the explanation, source, chart and access check. If a partner cannot explain the reasoning after viewing it, revise the content before adjusting the colors or adding more effects.

@@ -1,0 +1,16 @@
+# Simple systemd service using PHP's built-in server, behind an nginx/Apache
+# reverse proxy. Copy to /etc/systemd/system/splatlms.service, edit paths, then:
+#   systemctl daemon-reload && systemctl enable --now splatlms
+[Unit]
+Description=SplatLMS
+After=network.target
+
+[Service]
+Environment=SPLATLMS_DATA=/opt/courses/splatlms-data
+ExecStart=/usr/bin/php -d max_execution_time=0 -S 127.0.0.1:8000 -t /opt/courses/splatlms/public /opt/courses/splatlms/public/router.php
+Restart=always
+User=www-data
+Group=www-data
+
+[Install]
+WantedBy=multi-user.target

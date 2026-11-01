@@ -1,0 +1,10 @@
+Walkthrough: a ten-minute learning launch
+
+Build three panels
+For the first practice task, create three simple panels on DrawSplat. The first asks for a prediction about the best location for a plant. The second asks learners to record observations. The third asks them to revise or defend the prediction. Use text, a sketch or a supplied image. Keep the question visible and avoid filling the board with instructions that compete for attention.
+
+Model on a different example
+Model the reasoning with a different example so that students still have a new decision to make. State the claim, point to the observation and explain the connection. Ask a learner to restate the reasoning rather than repeat the sentence word for word. Your model should make the hidden decision process visible. Then leave part of the next example for the learner to complete.
+
+Test the launch
+Before calling the launch ready, check that each panel requires thinking you can assess. Save and reopen the editable board. Plan to collect a brief individual explanation even if students discuss in pairs. A colleague should be able to teach the launch from your one-page plan. Pause and finish your three panels, two criteria, saving routine and fallback. You will develop this same lesson through the remaining modules.

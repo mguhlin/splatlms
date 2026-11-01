@@ -1,0 +1,10 @@
+Choose an accessible media workflow
+
+Match the editor to the job
+Choose the media route by the editing job. ClipSplat can record or import clips, add illustrated panels or image cards and cut sections. VideoSplat provides richer timeline work, named markers, captions and privacy tools. MediaSplat is useful for splitting, trimming and joining audio or video. AudioSplat records and edits multitrack audio. You may need only one or two of these tools for a short classroom explanation.
+
+Script before recording
+Write the script before recording. Name the intended audience and keep the claim, evidence and limitation easy to follow. A chart should remain readable in the exported frame. Use media you are allowed to reuse and avoid identifiable student information during practice. An equivalent slide-and-text response can meet the learning goal when recording is not accessible or appropriate.
+
+Check access after export
+After export, inspect captions for names, numbers and timing. Provide the transcript beside the video and describe visual evidence that the audio does not convey. Test the result with sound off and in another player if available. The course mini-lessons model a narrated slide format with local captions and transcripts; they are not live recordings of someone editing inside the apps.

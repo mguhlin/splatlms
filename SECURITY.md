@@ -12,14 +12,14 @@ credentials or learner data into public issues.
 
 ## Operating an installation
 
-- Serve only `sapiqo/public/` through Apache or nginx, with HTTPS. Set `public_url`
-  in `sapiqo-data/config.local.php` to the installation's canonical URL.
+- Serve only `splatlms/public/` through Apache or nginx, with HTTPS. Set `public_url`
+  in `splatlms-data/config.local.php` to the installation's canonical URL.
 - Run a patched PHP. PHP2Shell (CVE-2026-109618 and CVE-2026-109619, October
   2026) allows unauthenticated code execution in PHP itself. It is fixed in 8.2.35,
   8.3.36, 8.4.27, and 8.5.12, or in a distribution package that backports the fix.
   `php installer/preflight.php` reports the status. The shipped `.user.ini`,
   `.htaccess`, Docker, and server templates also set
-  `session.upload_progress.enabled=0`. Sapiqo does not use that feature, and the
+  `session.upload_progress.enabled=0`. SplatLMS does not use that feature, and the
   setting reduces exposure, but only a patched PHP fixes these flaws.
 - Apply only signed update packages. Admin → Software updates refuses packages
   that are not signed by a trusted key. Keep `allow_unsigned_updates` off, and keep
@@ -45,3 +45,5 @@ credentials or learner data into public issues.
 
 The PHP built-in server and `installer/serve.sh` are for local testing. GitHub
 Pages publishes the introduction website and cannot execute the LMS backend.
+
+This separately branded derivative retains the Sapiqo LMS foundation; see UPSTREAM.md for provenance and the scope of inherited reports.

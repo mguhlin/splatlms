@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Sapiqo turnkey installer — Linux / macOS.
+# SplatLMS turnkey installer — Linux / macOS.
 #
 #   bash installer/install.sh                 # interactive
 #   bash installer/install.sh --install-deps  # also install missing PHP extensions (needs sudo)
@@ -21,11 +21,11 @@ set -euo pipefail
 
 HERE="$(cd "$(dirname "$0")" && pwd)"        # courses/installer
 ROOT="$(dirname "$HERE")"                     # courses/
-CODE="$ROOT/sapiqo"
-DATA="${SAPIQO_DATA:-$ROOT/sapiqo-data}"
+CODE="$ROOT/splatlms"
+DATA="${SPLATLMS_DATA:-$ROOT/splatlms-data}"
 
 EMAIL="" PASS="" FIRST="Admin" LAST="User" DB="" YES=0 INSTALL_DEPS=0 PORT="8000"
-MHOST="127.0.0.1" MDB="sapiqo" MUSER="sapiqo" MPASS=""
+MHOST="127.0.0.1" MDB="splatlms" MUSER="splatlms" MPASS=""
 CREATE_DB=0 ADMINU="" ADMINP=""
 while [ $# -gt 0 ]; do case "$1" in
   --email) EMAIL="$2"; shift 2;; --password) PASS="$2"; shift 2;;
@@ -111,9 +111,9 @@ if [ "$DB" = "mysql" ]; then
     [[ "$MUSER" =~ ^[A-Za-z0-9_]+$ ]] || err "Database user may contain only letters, digits, and underscores."
     # Hex conversion keeps quotes/backslashes in passwords out of SQL source.
     MPASS_HEX="$(printf '%s' "$MPASS" | od -An -tx1 | tr -d ' \n')"
-    SQL="SET @sapiqo_password = CONVERT(0x$MPASS_HEX USING utf8mb4); CREATE DATABASE IF NOT EXISTS \`$MDB\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
+    SQL="SET @splatlms_password = CONVERT(0x$MPASS_HEX USING utf8mb4); CREATE DATABASE IF NOT EXISTS \`$MDB\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
     for h in $SCOPES; do
-      SQL="$SQL SET @sapiqo_sql = CONCAT('CREATE USER IF NOT EXISTS ', QUOTE('$MUSER'), '@', QUOTE('$h'), ' IDENTIFIED BY ', QUOTE(@sapiqo_password)); PREPARE sapiqo_stmt FROM @sapiqo_sql; EXECUTE sapiqo_stmt; DEALLOCATE PREPARE sapiqo_stmt;"
+      SQL="$SQL SET @splatlms_sql = CONCAT('CREATE USER IF NOT EXISTS ', QUOTE('$MUSER'), '@', QUOTE('$h'), ' IDENTIFIED BY ', QUOTE(@splatlms_password)); PREPARE splatlms_stmt FROM @splatlms_sql; EXECUTE splatlms_stmt; DEALLOCATE PREPARE splatlms_stmt;"
       SQL="$SQL GRANT ALL PRIVILEGES ON \`$MDB\`.* TO '$MUSER'@'$h';"
     done
     SQL="$SQL FLUSH PRIVILEGES;"
@@ -145,9 +145,9 @@ mkdir -p "$DATA/data"
 CONF="$DATA/config.local.php"
 if [ ! -f "$CONF" ]; then
   if [ "$DB" = "mysql" ]; then
-    SAPIQO_MHOST="$MHOST" SAPIQO_MDB="$MDB" SAPIQO_MUSER="$MUSER" SAPIQO_MPASS="$MPASS" php -r '
-      $mysql = ["host" => getenv("SAPIQO_MHOST"), "port" => 3306,
-        "dbname" => getenv("SAPIQO_MDB"), "user" => getenv("SAPIQO_MUSER"), "pass" => getenv("SAPIQO_MPASS")];
+    SPLATLMS_MHOST="$MHOST" SPLATLMS_MDB="$MDB" SPLATLMS_MUSER="$MUSER" SPLATLMS_MPASS="$MPASS" php -r '
+      $mysql = ["host" => getenv("SPLATLMS_MHOST"), "port" => 3306,
+        "dbname" => getenv("SPLATLMS_MDB"), "user" => getenv("SPLATLMS_MUSER"), "pass" => getenv("SPLATLMS_MPASS")];
       echo "<?php\nreturn " . var_export(["db_driver" => "mysql", "mysql" => $mysql], true) . ";\n";
     ' > "$CONF"
   else
@@ -164,7 +164,7 @@ fi
 
 # --- Schema + admin + course scan ------------------------------------------
 say "Setting up the database and administrator…"
-SAPIQO_DATA="$DATA" php "$CODE/bin/setup.php" --email "$EMAIL" --password "$PASS" --first "$FIRST" --last "$LAST"
+SPLATLMS_DATA="$DATA" php "$CODE/bin/setup.php" --email "$EMAIL" --password "$PASS" --first "$FIRST" --last "$LAST"
 
 # --- Permissions (best effort) ---------------------------------------------
 chmod -R u+rwX,g+rwX "$DATA" 2>/dev/null || true

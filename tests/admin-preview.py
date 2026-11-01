@@ -2,7 +2,7 @@
 """Author previews bypass lesson ordering without granting learner access."""
 from pathlib import Path
 import http.cookiejar,json,os,re,shutil,socket,subprocess,tempfile,time,urllib.request,urllib.parse,urllib.error,sqlite3
-ROOT=Path(os.environ.get('LMS_TEST_ROOT',Path(__file__).resolve().parents[1]));CODE=os.environ.get('LMS_TEST_CODE','sapiqo');LEGACY=os.environ.get('LEGACY_PREVIEW_FIXTURE')=='1'
+ROOT=Path(os.environ.get('LMS_TEST_ROOT',Path(__file__).resolve().parents[1]));CODE=os.environ.get('LMS_TEST_CODE','splatlms');LEGACY=os.environ.get('LEGACY_PREVIEW_FIXTURE')=='1'
 assert (ROOT/CODE/'public/assets/js/course-reader.js').read_bytes()==(ROOT/'content/assets/js/reader.js').read_bytes(), 'Code-only update must include the matching runtime reader'
 with tempfile.TemporaryDirectory(prefix='lms-preview-') as scratch:
  base=Path(scratch);data=base/'data';content=base/'content';data.mkdir();content.mkdir();shutil.copytree(ROOT/'content/assets',content/'assets')
@@ -10,7 +10,7 @@ with tempfile.TemporaryDirectory(prefix='lms-preview-') as scratch:
  for slug,status in [('sample','published'),('draft','draft')]:
   folder=content/slug;folder.mkdir();(folder/'course.json').write_text(json.dumps(dict(sample,slug=slug,status=status)));(folder/'index.html').write_text('<title>untrusted shell</title>');(folder/'media').mkdir();(folder/'media/video.mp4').write_bytes(b'0123456789')
  (data/'config.local.php').write_text("<?php return ['db_driver'=>'sqlite','catalog_purchase'=>true,'allow_self_registration'=>false];")
- env=dict(os.environ,GOPHER_DATA=str(data),SAPIQO_DATA=str(data),TCEA_LMS_DATA=str(data),GOPHER_COURSES=str(content),SAPIQO_COURSES=str(content),TCEA_LMS_COURSES=str(content))
+ env=dict(os.environ,GOPHER_DATA=str(data),SPLATLMS_DATA=str(data),TCEA_LMS_DATA=str(data),GOPHER_COURSES=str(content),SPLATLMS_COURSES=str(content),TCEA_LMS_COURSES=str(content))
  command="require $argv[1].'/app/auth.php';require $argv[1].'/app/discovery.php';require $argv[1].'/app/courses.php';require $argv[1].'/app/creator.php';ensure_schema();foreach(['admin','author','learner','outsider'] as $role){[$ok,$uid]=register_local(['email'=>$role.'@example.org','password'=>'Preview-password-123','role'=>$role==='admin'?'admin':'learner']);if(!$ok)throw new Exception('User fixture');if($role==='author')db_run('UPDATE users SET can_edit_content=1 WHERE id=?',[$uid]);if($role==='learner')$learner=$uid;}scan_courses();db_run('UPDATE courses SET sequential=1');$c=course_by_slug('sample');enroll($learner,(int)$c['id']);foreach(['sample','draft'] as $slug)file_put_contents(lms_config()['courses_dir'].'/'.$slug.'/index.html',cr_shell_html('Preview fixture','',false));"
  subprocess.run(['php','-r',command,str(ROOT/CODE)],env=env,check=True,stdout=subprocess.DEVNULL)
  def counts():

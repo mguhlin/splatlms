@@ -1,0 +1,357 @@
+[
+  {
+    "url": "https://splatworks.org/admin/admin.html",
+    "status": 200,
+    "final_url": "https://splatworks.org/admin/admin"
+  },
+  {
+    "url": "https://splatworks.org/app/whiteboard.html",
+    "status": 200,
+    "final_url": "https://splatworks.org/app/whiteboard"
+  },
+  {
+    "url": "https://splatworks.org/games/castles/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/castles/"
+  },
+  {
+    "url": "https://splatworks.org/games/cipher-chase/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/cipher-chase/"
+  },
+  {
+    "url": "https://splatworks.org/games/floodfill/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/floodfill/"
+  },
+  {
+    "url": "https://splatworks.org/games/flowfree/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/flowfree/"
+  },
+  {
+    "url": "https://splatworks.org/games/funquiz/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/funquiz/"
+  },
+  {
+    "url": "https://splatworks.org/games/gilasplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/gilasplat/"
+  },
+  {
+    "url": "https://splatworks.org/games/lightsout/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/lightsout/"
+  },
+  {
+    "url": "https://splatworks.org/games/paws-and-keys-adventure/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/paws-and-keys-adventure/"
+  },
+  {
+    "url": "https://splatworks.org/games/splatball/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/splatball/"
+  },
+  {
+    "url": "https://splatworks.org/games/squirrel-run-game/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/squirrel-run-game/"
+  },
+  {
+    "url": "https://splatworks.org/games/story-sprint/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/story-sprint/"
+  },
+  {
+    "url": "https://splatworks.org/games/super-star-trek/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/super-star-trek/"
+  },
+  {
+    "url": "https://splatworks.org/games/tangram/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/tangram/"
+  },
+  {
+    "url": "https://splatworks.org/games/typing-games/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/typing-games/"
+  },
+  {
+    "url": "https://splatworks.org/games/untangle/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/untangle/"
+  },
+  {
+    "url": "https://splatworks.org/games/wordfall-reactor/",
+    "status": 200,
+    "final_url": "https://splatworks.org/games/wordfall-reactor/"
+  },
+  {
+    "url": "https://splatworks.org/guides/classroom-widgets-tools.html",
+    "status": 200,
+    "final_url": "https://splatworks.org/guides/classroom-widgets-tools"
+  },
+  {
+    "url": "https://splatworks.org/guides/core-whiteboard-tools.html",
+    "status": 200,
+    "final_url": "https://splatworks.org/guides/core-whiteboard-tools"
+  },
+  {
+    "url": "https://splatworks.org/legal/terms-privacy.html",
+    "status": 200,
+    "final_url": "https://splatworks.org/legal/terms-privacy"
+  },
+  {
+    "url": "https://splatworks.org/pages/background-templates.html",
+    "status": 200,
+    "final_url": "https://splatworks.org/pages/background-templates"
+  },
+  {
+    "url": "https://splatworks.org/parents/",
+    "status": 200,
+    "final_url": "https://splatworks.org/parents/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/CipherSplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/CipherSplat/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/audiosplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/audiosplat/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/backdropsplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/backdropsplat/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/big-link/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/big-link/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/bingo-caller/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/bingo-caller/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/bingo-card-generator/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/bingo-card-generator/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/brain-sort/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/brain-sort/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/clipsplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/clipsplat/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/clock-wizard/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/clock-wizard/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/coinflipping/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/coinflipping/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/coloring-book/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/coloring-book/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/concept-map/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/concept-map/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/dice/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/dice/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/dicebreakers/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/dicebreakers/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/dotsboxes/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/dotsboxes/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/drawsketch/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/drawsketch/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/fontsplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/fontsplat/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/fortune/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/fortune/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/gifsplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/gifsplat/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/graphsplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/graphsplat/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/imagesplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/imagesplat/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/markdown-studio/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/markdown-studio/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/mediasplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/mediasplat/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/memepuzzle/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/memepuzzle/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/memesplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/memesplat/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/mermaid/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/mermaid/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/pdfsplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/pdfsplat/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/qrsplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/qrsplat/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/quiz-flashcard-studio/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/quiz-flashcard-studio/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/rubric-builder/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/rubric-builder/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/sketchspace-VR/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/sketchspace-VR/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/splatbot-studio/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/splatbot-studio/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/step-splat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/step-splat/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/storywheel/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/storywheel/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/toneshifter/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/toneshifter/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/vibe-check/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/vibe-check/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/videosplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/videosplat/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/web-bingo-maker/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/web-bingo-maker/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/wheel-spinner/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/wheel-spinner/"
+  },
+  {
+    "url": "https://splatworks.org/solutions/wordsearch/",
+    "status": 200,
+    "final_url": "https://splatworks.org/solutions/wordsearch/"
+  },
+  {
+    "url": "https://splatworks.org/splatworks/gridsplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/splatworks/gridsplat/"
+  },
+  {
+    "url": "https://splatworks.org/splatworks/layoutsplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/splatworks/layoutsplat/"
+  },
+  {
+    "url": "https://splatworks.org/splatworks/listsplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/splatworks/listsplat/"
+  },
+  {
+    "url": "https://splatworks.org/splatworks/plansplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/splatworks/plansplat/"
+  },
+  {
+    "url": "https://splatworks.org/splatworks/showsplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/splatworks/showsplat/"
+  },
+  {
+    "url": "https://splatworks.org/splatworks/writesplat/",
+    "status": 200,
+    "final_url": "https://splatworks.org/splatworks/writesplat/"
+  },
+  {
+    "url": "https://splatworks.org/wiki/",
+    "status": 200,
+    "final_url": "https://splatworks.org/wiki/"
+  },
+  {
+    "url": "https://splatworks.org/wiki/for-educators.html",
+    "status": 200,
+    "final_url": "https://splatworks.org/wiki/for-educators"
+  }
+]

@@ -1,0 +1,10 @@
+Organize and graph evidence without overclaiming
+
+Records and calculations serve different needs
+ListSplat organizes fields and records. GridSplat works with numerical tables, formulas and charts. GraphSplat offers chart and graph-focused tools, including picture and coordinate representations. Choose the representation that helps learners answer the question. A list of records and a chart can support the same inquiry, but they make different features easier to inspect.
+
+Read the sample honestly
+Open the supplied schoolyard observations file. It contains four fictional records for practice, not measurements from a real school. Read the units and notes before charting. You can describe the pattern in these records, but you cannot claim that the sample proves a general cause. Ask what other conditions, repeat observations or comparisons would be needed for a stronger conclusion.
+
+Make the chart inspectable
+Build a clearly titled chart with labeled units. Write a text summary that cites two values and one limitation. Ask a partner to check the values against the table. The chart’s job is to support a defensible explanation, not merely look polished. Pause and make a small chart, then write a recommendation that separates the observations from the inference.

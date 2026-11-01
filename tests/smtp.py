@@ -27,7 +27,7 @@ with socket.socket() as server:
         except Exception as e:failures.append(e)
     thread=threading.Thread(target=receive,daemon=True);thread.start()
     cfg={'from':'lms@example.org','from_name':'Test LMS','smtp':{'host':'127.0.0.1','port':port,'secure':'','user':'','pass':''}}
-    php="require "+repr(str(ROOT/'sapiqo/app/mailer.php'))+"; echo json_encode(smtp_send(json_decode('"+json.dumps(cfg)+"',true),'learner@example.org','Protocol test',\"Hello\\n.leading dot\"));"
+    php="require "+repr(str(ROOT/'splatlms/app/mailer.php'))+"; echo json_encode(smtp_send(json_decode('"+json.dumps(cfg)+"',true),'learner@example.org','Protocol test',\"Hello\\n.leading dot\"));"
     result=json.loads(subprocess.check_output(['php','-r',php],text=True));thread.join(timeout=10)
     assert result[0] is True and len(messages)==1 and not failures
     assert b'\r\n..leading dot\r\n' in messages[0] and b'Message-ID:' in messages[0] and b'Date:' in messages[0]

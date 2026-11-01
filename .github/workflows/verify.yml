@@ -70,8 +70,8 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           persist-credentials: false
-      - run: docker build -f installer/Dockerfile -t sapiqo-check .
-      - run: docker run -d --name sapiqo-check -p 127.0.0.1:8080:80 -e ADMIN_EMAIL=admin@example.org -e ADMIN_PASSWORD=Isolated-test-password-123 sapiqo-check
+      - run: docker build -f installer/Dockerfile -t splatlms-check .
+      - run: docker run -d --name splatlms-check -p 127.0.0.1:8080:80 -e ADMIN_EMAIL=admin@example.org -e ADMIN_PASSWORD=Isolated-test-password-123 splatlms-check
       - run: |
           for attempt in $(seq 1 30); do
             if curl -fsS http://127.0.0.1:8080/login -o /tmp/login.html; then break; fi
@@ -79,6 +79,6 @@ jobs:
           done
           python3 tests/docker-http.py
       - if: always()
-        run: docker logs sapiqo-check
+        run: docker logs splatlms-check
       - if: always()
-        run: docker rm -f sapiqo-check
+        run: docker rm -f splatlms-check

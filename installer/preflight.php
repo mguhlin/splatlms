@@ -1,5 +1,5 @@
 <?php
-// Sapiqo pre-flight check. Verifies PHP version, extensions, and writable paths,
+// SplatLMS pre-flight check. Verifies PHP version, extensions, and writable paths,
 // then prints per-OS remediation. Exit code 0 = ready, 1 = a REQUIRED item is
 // missing. Safe to run any time:  php installer/preflight.php
 //
@@ -9,14 +9,14 @@
 declare(strict_types=1);
 
 $root    = dirname(__DIR__);                 // courses/
-$code    = $root . '/sapiqo';
-$dataDir = getenv('SAPIQO_DATA') ?: ($root . '/sapiqo-data');
+$code    = $root . '/splatlms';
+$dataDir = getenv('SPLATLMS_DATA') ?: ($root . '/splatlms-data');
 
 $C = fn($s, $c) => (PHP_SAPI === 'cli' && stream_isatty(STDOUT)) ? "\033[{$c}m{$s}\033[0m" : $s;
 $ok = fn($s) => $C($s, '32'); $bad = fn($s) => $C($s, '31'); $warn = fn($s) => $C($s, '33');
 $line = str_repeat('─', 56);
 
-echo "\nSapiqo pre-flight check\n$line\n";
+echo "\nSplatLMS pre-flight check\n$line\n";
 
 // --- PHP version ---
 $phpOK = version_compare(PHP_VERSION, '8.1.0', '>=');

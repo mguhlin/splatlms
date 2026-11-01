@@ -32,4 +32,4 @@ Windows/IIS, nginx/offload and real provider integrations require further checks
 See the [compatibility matrix](docs/COMPATIBILITY.md).
 
 Contributions to original project files are under CC BY-SA 4.0, with attribution
-to Sapiqo LMS by Miguel Guhlin. Keep third-party license notices intact.
+to SplatLMS by Miguel Guhlin. Keep third-party license notices intact.

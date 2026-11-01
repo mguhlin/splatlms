@@ -1,0 +1,10 @@
+Worked examples that reveal the reasoning
+
+Show the why
+A worked example is more than a finished answer. It makes the steps and reasons visible. Build a complete model, then a partially supported example, then a fresh independent task. For the plant inquiry, demonstrate how one observation supports a location choice and name the uncertainty. Say why you use that observation rather than simply describing which object you clicked.
+
+Remove support deliberately
+Duplicate the model’s useful structure and remove one step that learners are ready to supply. You might keep the claim and observations but remove the explanation. Ask a partner to complete it and justify the choice. Avoid removing every support at once for a novice. Listen for the misconception before offering the answer; the learner’s explanation tells you which part needs another model.
+
+Check a new case
+The final task should change the example while preserving the reasoning demand. A student who can copy the original answer has not necessarily transferred the idea. Give a new observation and ask for a new explanation. Use one individual response to decide whether to move ahead, provide a smaller scaffold or reteach a connection. Pause and identify the step you will model, the step you will fade and the new case you will use.

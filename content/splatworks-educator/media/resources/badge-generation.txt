@@ -1,0 +1,7 @@
+Generated using the built-in image_gen tool on 2026-10-31.
+Prompt:
+Use case: logo-brand. Asset type: a finished digital course achievement badge, transparent PNG.
+Primary request: Create a professional SplatWorks Educator badge shaped as a broad UPSIDE-DOWN EQUILATERAL TRIANGLE: a flat horizontal top edge, two sloping sides meeting at one sharp bottom point. The overall silhouette MUST be an inverted triangle, never an upright triangle, shield, circle, or pentagon. Center it with comfortable transparent margins.
+Brand: playful educational SplatWorks ecosystem. Use a dimensional purple enamel paint-splat emblem, deep violet and charcoal face, polished gold double rim, restrained white highlights, and small open-book, pen and cursor symbols within the triangle. Premium embroidered/enamel merit badge look, crisp edges, readable at thumbnail size, tasteful detail.
+Text exact and legible: "SplatWorks" across upper middle and "EDUCATOR" beneath it on an integrated gold horizontal band. Near bottom point place five small gold stars for five modules. No other text, no dates, no names, no external background, no watermark. Typography strong and clean. Keep every element inside the inverted-triangle silhouette.
+Output: one centered badge on genuinely transparent background, high-resolution square image.

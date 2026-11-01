@@ -1,0 +1,55 @@
+{
+  "reviewed": "2026-10-31",
+  "registry_destinations": 68,
+  "registry_url": "https://drawsplat.org/data/drawsplat-tools.json",
+  "domain_homepage_verified": "https://splatworks.org/",
+  "images": {
+    "module_banners": "User-supplied concept artwork; supplied filenames retained in this manifest. Not representations of exact UI or actual game mechanics.",
+    "user_supplied": {
+      "module-1-illustration.png": "ChatGPT Image Oct 31, 2026, 12_20_25 PM-1.png",
+      "module-2-illustration.png": "ChatGPT Image Oct 31, 2026, 12_20_26 PM-2.png",
+      "module-3-illustration.png": "ChatGPT Image Oct 31, 2026, 12_20_27 PM-3.png",
+      "module-4-illustration.png": "ChatGPT Image Oct 31, 2026, 12_20_28 PM-4.png",
+      "module-5-illustration.png": "ChatGPT Image Oct 31, 2026, 12_20_28 PM-5.png",
+      "educator-badge-alternative.png": "ChatGPT Image Oct 31, 2026, 12_20_29 PM-6.png"
+    },
+    "screenshots": "Captured from the local DrawSplat repository on 2026-10-31; live tool registry matched local registry.",
+    "suite_image": "Original project asset splatworks_hero_image.png",
+    "primary_badge": "Built-in image_gen output, purple/gold inverted triangle; generation prompt stored in badge-generation.txt.",
+    "alternate_badge": "User-supplied blue/gold SplatWorks Educator artwork."
+  },
+  "videos": "Original narrated visual mini-lessons authored for this course. Synthetic English speech, genuine app screenshots, instructional slides, burned-in captions, WebVTT and HTML transcripts. Not live screen recordings.",
+  "sources": {
+    "clarity": [
+      "Teacher clarity — Visible Learning MetaX, February 2026",
+      "https://www.visiblelearningmetax.com/influences/view/teacher_clarity",
+      "The current MetaX entry reports a weighted mean effect size of 0.85 for teacher clarity. Its underlying syntheses concern relationships between clarity and learning; the figure is not a forecast of gains from a particular app."
+    ],
+    "feedback": [
+      "Wisniewski, Zierer & Hattie (2020), The Power of Feedback Revisited",
+      "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.03087/full",
+      "This meta-analysis reports d = 0.48 after excluding extreme values. A high-information-feedback subgroup reports d = 0.99. The subgroup is not interchangeable with the overall estimate, and effects vary widely."
+    ],
+    "retrieval": [
+      "Yang et al. (2021), Testing (Quizzing) Boosts Classroom Learning",
+      "https://scholars.hkbu.edu.hk/en/publications/testing-quizzing-boosts-classroom-learning-a-systematic-and-meta-/",
+      "A review of 222 classroom studies reports an overall Hedges’ g of 0.499 for quizzing. Comparators, timing and feedback matter; typing a displayed answer is not the same task as recalling it."
+    ],
+    "selfexplain": [
+      "Bisra et al. (2018), Inducing Self-Explanation: A Meta-Analysis",
+      "https://doi.org/10.1007/s10648-018-9434-x",
+      "The study reports an overall weighted mean g = 0.55 for prompted self-explanation. Ask learners to explain why a step or relationship makes sense, rather than simply narrating clicks."
+    ],
+    "metacognition": [
+      "EEF, Metacognition and self-regulation",
+      "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation",
+      "EEF summarizes this strand as high impact, averaging eight additional months of progress. Months of progress are a separate metric from d or g. Teach planning, monitoring and evaluation within subject learning."
+    ],
+    "collaboration": [
+      "EEF, Collaborative learning approaches",
+      "https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/collaborative-learning-approaches",
+      "EEF reports five additional months on average, with limited evidence security. Structure participation and a shared goal; placing students at the same screen does not by itself create effective collaboration."
+    ]
+  },
+  "fictional_data": "schoolyard-observations.csv is synthetic practice data, not real school measurements."
+}

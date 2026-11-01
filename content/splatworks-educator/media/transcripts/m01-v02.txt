@@ -1,0 +1,10 @@
+Save, reopen and protect the learning
+
+Two files, two purposes
+A dependable saving routine is part of lesson design. An editable project keeps the objects, records or timeline available for revision. A shareable export gives someone a view or finished product. They serve different purposes. Before class, save a small project and export it in a format the app supports. Reopen the editable file and inspect the export. That quick test is more useful than assuming that the download succeeded.
+
+Browser storage has boundaries
+Browser drafts are tied to the device, browser and site origin. A draft on DrawSplat dot org is not automatically the same draft on SplatWorks dot org. Clearing browser data can remove local recovery information. Google Drive connections and district whiteboard accounts also have different roles; they do not make every app a shared cloud document. Follow the app guide, check the saved status and use exported files when moving work between contexts.
+
+Practice a recovery
+Use anonymous practice content while you learn. Save a file with the course name, activity and version in the filename. Close the project, reopen the copy and check one important detail. Record where you will store the source and finished export. Finally, write a one-sentence fallback for the learning task. If a device or connection fails, students can still predict, examine evidence and revise a claim on paper.

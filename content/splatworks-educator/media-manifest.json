@@ -1,0 +1,147 @@
+{
+  "format": "H.264/AAC MP4, 1280×720, 8 fps; burned-in captions plus WebVTT",
+  "narration": "Synthetic English voice using espeak-ng; original scripts in transcripts",
+  "videos": [
+    {
+      "file": "media/videos/m01-v01.mp4",
+      "title": "Start with learning, then choose the tool",
+      "duration_seconds": 90.66,
+      "caption_cues": 19,
+      "bytes": 1296624
+    },
+    {
+      "file": "media/videos/m01-v02.mp4",
+      "title": "Save, reopen and protect the learning",
+      "duration_seconds": 88.82,
+      "caption_cues": 19,
+      "bytes": 1260375
+    },
+    {
+      "file": "media/videos/m01-v03.mp4",
+      "title": "Plan, monitor and evaluate with a short routine",
+      "duration_seconds": 80.32,
+      "caption_cues": 17,
+      "bytes": 1148609
+    },
+    {
+      "file": "media/videos/m01-v04.mp4",
+      "title": "Walkthrough: a ten-minute learning launch",
+      "duration_seconds": 76.75,
+      "caption_cues": 17,
+      "bytes": 1082134
+    },
+    {
+      "file": "media/videos/m02-v01.mp4",
+      "title": "Worked examples that reveal the reasoning",
+      "duration_seconds": 78.9,
+      "caption_cues": 16,
+      "bytes": 1127966
+    },
+    {
+      "file": "media/videos/m02-v02.mp4",
+      "title": "Concept maps, diagrams and purposeful visuals",
+      "duration_seconds": 82.24,
+      "caption_cues": 17,
+      "bytes": 1212400
+    },
+    {
+      "file": "media/videos/m02-v03.mp4",
+      "title": "Collaboration with roles and individual evidence",
+      "duration_seconds": 79.19,
+      "caption_cues": 16,
+      "bytes": 1142115
+    },
+    {
+      "file": "media/videos/m02-v04.mp4",
+      "title": "Walkthrough: build an explanation board",
+      "duration_seconds": 74.22,
+      "caption_cues": 17,
+      "bytes": 1064978
+    },
+    {
+      "file": "media/videos/m03-v01.mp4",
+      "title": "From written explanation to publication",
+      "duration_seconds": 78.85,
+      "caption_cues": 16,
+      "bytes": 1143058
+    },
+    {
+      "file": "media/videos/m03-v02.mp4",
+      "title": "Organize and graph evidence without overclaiming",
+      "duration_seconds": 75.22,
+      "caption_cues": 15,
+      "bytes": 1129990
+    },
+    {
+      "file": "media/videos/m03-v03.mp4",
+      "title": "Choose an accessible media workflow",
+      "duration_seconds": 82.17,
+      "caption_cues": 16,
+      "bytes": 1171551
+    },
+    {
+      "file": "media/videos/m03-v04.mp4",
+      "title": "Walkthrough: a one-minute evidence explainer",
+      "duration_seconds": 74.56,
+      "caption_cues": 16,
+      "bytes": 1067116
+    },
+    {
+      "file": "media/videos/m04-v01.mp4",
+      "title": "Retrieval that goes beyond recognition",
+      "duration_seconds": 78.15,
+      "caption_cues": 17,
+      "bytes": 1130060
+    },
+    {
+      "file": "media/videos/m04-v02.mp4",
+      "title": "Feedback that changes the next attempt",
+      "duration_seconds": 76.51,
+      "caption_cues": 16,
+      "bytes": 1135698
+    },
+    {
+      "file": "media/videos/m04-v03.mp4",
+      "title": "Classroom utilities with a learning purpose",
+      "duration_seconds": 76.87,
+      "caption_cues": 16,
+      "bytes": 1134131
+    },
+    {
+      "file": "media/videos/m04-v04.mp4",
+      "title": "Walkthrough: retrieve, respond and revise",
+      "duration_seconds": 71.95,
+      "caption_cues": 16,
+      "bytes": 1092441
+    },
+    {
+      "file": "media/videos/m05-v01.mp4",
+      "title": "Choose the right typing adventure",
+      "duration_seconds": 84.48,
+      "caption_cues": 16,
+      "bytes": 1346373
+    },
+    {
+      "file": "media/videos/m05-v02.mp4",
+      "title": "Play, predict and explain with logic games",
+      "duration_seconds": 75.91,
+      "caption_cues": 16,
+      "bytes": 1087252
+    },
+    {
+      "file": "media/videos/m05-v03.mp4",
+      "title": "Design a short game station that includes everyone",
+      "duration_seconds": 75.25,
+      "caption_cues": 14,
+      "bytes": 1103202
+    },
+    {
+      "file": "media/videos/m05-v04.mp4",
+      "title": "Capstone: bring the ecosystem into your classroom",
+      "duration_seconds": 80.65,
+      "caption_cues": 16,
+      "bytes": 1187023
+    }
+  ],
+  "total_duration_seconds": 1581.67
+}

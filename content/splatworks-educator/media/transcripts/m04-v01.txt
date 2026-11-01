@@ -1,0 +1,10 @@
+Retrieval that goes beyond recognition
+
+Try before you reveal
+Retrieval practice begins with an attempt to bring knowledge to mind. Ask for a short explanation before showing the answer. Then reveal corrective feedback and revisit the idea later with a changed example. QuizSplat can support questions, flashcards and team activities, but the learning depends on the prompt and the attempt. A learner copying a displayed answer is doing a different task.
+
+Build a small aligned check
+Build a five-item check tied to the module goal. Include two essential facts, two reasoning questions and one new-case application. Ask what an incorrect response would tell you to teach next. Avoid questions whose difficulty comes mainly from confusing wording. For flashcards, require an answer before turning the card over. For team play, let each learner commit a response before the discussion.
+
+Use the evidence
+Use the responses to plan the next action. Provide a short explanation when students need it, not just a mark. Schedule a later retrieval opportunity in PlanSplat or your calendar. A team score can make a review energetic but may hide an individual misconception. Pause and write one question that checks reasoning and one follow-up question using a different example.

@@ -1,0 +1,979 @@
+{
+  "slug": "splatworks-educator",
+  "title": "SplatWorks Educator",
+  "provider": "SplatWorks / DrawSplat",
+  "tagline": "Create, teach, assess and play with evidence-informed K–12 learning routines.",
+  "tags": [
+    "SplatWorks",
+    "DrawSplat",
+    "K–12",
+    "Instructional design",
+    "Media literacy",
+    "Typing and games"
+  ],
+  "overview_html": "<p><img src=\"media/images/module-1-illustration.png\" alt=\"Illustrated overview of SplatWorks and DrawSplat in a classroom\" style=\"width:100%;height:auto\"></p><p>Build an evidence-informed K–12 lesson while exploring the SplatWorks ecosystem: the DrawSplat whiteboard, office applications, planner, creation and media tools, assessment utilities and classroom games.</p><ul><li>Five modules and twenty optional narrated visual overviews with burned-in captions, WebVTT files and full transcripts.</li><li>Worked examples, self-explanation, retrieval, actionable feedback, metacognition and structured collaboration.</li><li>A linked field guide to all 68 current Studio destinations, practical worksheets, a fictional dataset and a classroom capstone.</li></ul><p>Allow about five hours, including hands-on practice. No prior SplatWorks experience is required. A current browser and a place to save downloads are needed; a microphone is optional. Choose an actual unit from your teaching context.</p><p>Complete the twenty lesson sections and pass each of five knowledge checks at 80%. Practice products are self-checked unless a facilitator adds an actual assignment. CPE and GT hours are not assigned; the badge is a course-completion artifact.</p><p>Product links need internet access; bundled lessons, videos, captions, transcripts, illustrations and worksheets are local. Research findings describe instructional approaches, not measured effects of SplatWorks products.</p>",
+  "cpe_hours": 0,
+  "gt_hours": 0,
+  "certification": false,
+  "status": "published",
+  "stats": {
+    "modules": 5,
+    "core_modules": 5,
+    "lessons": 20,
+    "topics": 0,
+    "videos": 20,
+    "quizzes": 5
+  },
+  "modules": [
+    {
+      "id": "module-1",
+      "key": "1",
+      "label": "Module 1",
+      "title": "Module 1: Getting Started with SplatWorks",
+      "summary": "Choose a tool from a learning goal, navigate the full ecosystem, and establish a dependable saving and self-regulation routine.",
+      "lessons": [
+        {
+          "id": "lesson-0-0",
+          "title": "1.0 About the Module",
+          "slug": "1-0-about-the-module",
+          "content": "<p><img src=\"media/images/module-1-illustration.png\" alt=\"Concept illustration for module 1: Getting Started with SplatWorks\" style=\"width:100%;height:auto\"></p><p><em>Author-supplied concept artwork; use the real screenshots and app links for exact interfaces.</em></p><p>This is professional learning for K–12 teachers, librarians, coaches and instructional leaders. You will build a small classroom learning experience across five modules. Use a laptop or Chromebook with a current browser, headphones if helpful, and permission to download files. A microphone is optional. You can complete the activities without student accounts or identifiable student work.</p>\n<p>SplatWorks is the whole ecosystem: the DrawSplat whiteboard, five office applications, the PlanSplat planner, standalone tools, media editors, classroom utilities and games. The live Studio registry reviewed on October 31, 2026 lists 68 destinations. This course includes every registry destination in its linked field guide. Some tools deserve a full activity; others are useful options for a specific task.</p>\n<p>Start with this transfer question: <strong>What thinking should students do, and what evidence would show that they did it?</strong> A compelling interface is helpful only when students use it to explain, retrieve, compare, practice or revise. The effect-size figures in this course describe research on instructional approaches, not measured effects of SplatWorks products. Estimates from different syntheses are not a league table, and they cannot be added together to predict learning gains.</p>\n<p>Choose a real unit you teach. If you need a common example, use our fictional schoolyard inquiry: <strong>Which place would keep a young plant cooler on a warm day, and what evidence supports the choice?</strong> You will return to this example while learning the tools. Align a classroom adaptation to the standards already taught in your setting; the course does not assign a universal K–12 content standard.</p>\n<p>Course completion includes 20 lesson sections and five quizzes. Each quiz requires 80%, with unlimited retries. The capstone is a self-checked product unless a facilitator configures an actual LMS assignment. Estimated study time is about five hours including practice and optional classroom transfer, not approved credit. CPE and GT hours remain zero until an authorized provider assigns them.</p><h3>Learning goals</h3><ul><li>I can distinguish the SplatWorks ecosystem from the DrawSplat whiteboard and locate a tool for a specific learning task.</li><li>I can write a learning intention and two observable success criteria before choosing software.</li><li>I can save an editable project and a shareable export, reopen a copy, and explain domain-specific browser storage.</li><li>I can use a plan–monitor–evaluate routine with a planner or a simple checklist.</li></ul><h3>Time and capacity matrix</h3><p>Allow about 50 minutes including viewing, reading and practice. For each goal, record a before and after rating: 1 = new to me; 2 = can explain; 3 = can apply; 4 = can teach or adapt. Cite one artifact that supports your after-rating.</p><h3>Research lens</h3><p>The current MetaX entry reports a weighted mean effect size of 0.85 for teacher clarity. Its underlying syntheses concern relationships between clarity and learning; the figure is not a forecast of gains from a particular app. <a href=\"https://www.visiblelearningmetax.com/influences/view/teacher_clarity\">Teacher clarity — Visible Learning MetaX, February 2026</a>.</p><p>EEF summarizes this strand as high impact, averaging eight additional months of progress. Months of progress are a separate metric from d or g. Teach planning, monitoring and evaluation within subject learning. <a href=\"https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation\">EEF, Metacognition and self-regulation</a>.</p>",
+          "videos": [],
+          "topics": []
+        },
+        {
+          "id": "lesson-0-1",
+          "title": "1.1 Explore",
+          "slug": "1-1-explore",
+          "content": "<p>Open a linked app in another tab while you work. Each short video contains a concept, a workflow and a pause-and-try prompt. Use the transcript for a text-first route. Screenshots show the reviewed local build; a current app may look different.</p><h3>Start with learning, then choose the tool</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Start with learning, then choose the tool\" poster=\"media/videos/m01-v01-poster.jpg\"><source src=\"media/videos/m01-v01.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m01-v01.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m01-v01.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m01-v01.html\">Read the full transcript</a> · <a href=\"media/videos/m01-v01.vtt\">English caption file</a></p><h3>Save, reopen and protect the learning</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Save, reopen and protect the learning\" poster=\"media/videos/m01-v02-poster.jpg\"><source src=\"media/videos/m01-v02.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m01-v02.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m01-v02.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m01-v02.html\">Read the full transcript</a> · <a href=\"media/videos/m01-v02.vtt\">English caption file</a></p><h3>Plan, monitor and evaluate with a short routine</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Plan, monitor and evaluate with a short routine\" poster=\"media/videos/m01-v03-poster.jpg\"><source src=\"media/videos/m01-v03.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m01-v03.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m01-v03.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m01-v03.html\">Read the full transcript</a> · <a href=\"media/videos/m01-v03.vtt\">English caption file</a></p><h3>Open the tools</h3><ul><li><a href=\"https://splatworks.org/app/whiteboard.html\">DrawSplat Whiteboard</a> — Model a prediction–evidence–revision sequence and collect an individual explanation.</li><li><a href=\"https://splatworks.org/splatworks/plansplat/\">PlanSplat</a> — Schedule a learning task and a later retrieval opportunity; use a plan–monitor–evaluate routine.</li><li><a href=\"https://splatworks.org/solutions/brain-sort/\">Brain Sort</a> — Turn a planning dump into actions and choose the first action that advances the learning goal.</li><li><a href=\"https://splatworks.org/solutions/clock-wizard/\">Clock Wizard</a> — Estimate work phases and compare an estimate with actual experience to improve planning.</li><li><a href=\"https://splatworks.org/solutions/step-splat/\">Step-Splat</a> — Break an authentic deliverable into manageable actions and self-check each important stage.</li><li><a href=\"https://splatworks.org/solutions/big-link/\">Big Link</a> — Make the activity URL easy to see or print; verify the destination before distributing it.</li><li><a href=\"https://splatworks.org/solutions/qrsplat/\">QRSplat Studio</a> — Make a QR route to a reviewed resource and include a readable URL alternative.</li><li><a href=\"https://splatworks.org/solutions/CipherSplat/\">CipherSplat</a> — Demonstrate local encryption with non-sensitive practice files; it does not replace school data policies or key management.</li><li><a href=\"https://splatworks.org/admin/admin.html\">Teacher Admin</a> — Have an authorized administrator configure class/storage connections; teacher practice does not require changing a live setup.</li><li><a href=\"https://splatworks.org/parents/\">Family Access Tools</a> — Use the family-facing guidance for approved access and sharing routines in your school context.</li><li><a href=\"https://splatworks.org/pages/background-templates.html\">Background Templates</a> — Start with a task-appropriate background, then adjust the scaffold and remove support when ready.</li><li><a href=\"https://splatworks.org/wiki/for-educators.html\">For educators</a> — Consult educator guidance before class for the exact saving, access or classroom workflow you will use.</li><li><a href=\"https://splatworks.org/wiki/\">SplatWorks Wiki</a> — Use the official wiki for current features, licenses, troubleshooting and deployment-specific details.</li></ul>",
+          "videos": [
+            {
+              "provider": "local",
+              "file": "media/videos/m01-v01.mp4",
+              "captions": "media/videos/m01-v01.vtt"
+            },
+            {
+              "provider": "local",
+              "file": "media/videos/m01-v02.mp4",
+              "captions": "media/videos/m01-v02.vtt"
+            },
+            {
+              "provider": "local",
+              "file": "media/videos/m01-v03.mp4",
+              "captions": "media/videos/m01-v03.vtt"
+            }
+          ],
+          "topics": []
+        },
+        {
+          "id": "lesson-0-2",
+          "title": "1.2 Practice On Your Own",
+          "slug": "1-2-practice-on-your-own",
+          "content": "<h3>Build a ten-minute learning launch</h3><p>Choose one content goal from a current unit. Write an intention in student language and two criteria describing the quality of the thinking, not the appearance of the file. For our example: “I can recommend a location for a plant using observations.” Criteria: name a location and support it with two relevant observations.</p>\n<ol><li>Open Studio and locate DrawSplat, PlanSplat and a tool you have never used. Record the learning task each could support.</li><li>In DrawSplat, create three panels: <strong>Predict</strong>, <strong>Notice evidence</strong>, and <strong>Revise</strong>. Put one question on each and model a brief answer on a separate example.</li><li>In PlanSplat, or the supplied planning worksheet, schedule two short work blocks and a later review. Use Brain Sort for a task dump, Step-Splat to divide the deliverable, or Clock Wizard to estimate the time.</li><li>Export an editable project with a clear filename and a shareable image or document where supported. Reopen the editable copy and confirm it contains your work. Browser autosave alone is not your backup.</li><li>Add a single “If the technology fails…” sentence. A paper prediction–evidence–revision organizer is a workable fallback.</li></ol>\n<p><strong>Deliverable:</strong> a three-panel launch plus a one-page plan naming the goal, criteria, learner actions, save routine and fallback.</p>\n<p><strong>Self-check:</strong> a colleague should be able to state the learning goal without seeing the app name; each panel should require a different step in thinking; your downloaded editable file should reopen.</p>\n<p><strong>Reflect:</strong> What will you look for in student responses that would cause you to change tomorrow’s instruction?</p><h3>Walkthrough: a ten-minute learning launch</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Walkthrough: a ten-minute learning launch\" poster=\"media/videos/m01-v04-poster.jpg\"><source src=\"media/videos/m01-v04.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m01-v04.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m01-v04.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m01-v04.html\">Read the full transcript</a> · <a href=\"media/videos/m01-v04.vtt\">English caption file</a></p><h3>Ready-to-adapt classroom sequence</h3><p>Choose the content standard and grade expectations already used in your setting. The timings below describe one classroom adaptation, separate from your course study time.</p><table><tr><th>Phase</th><th>Minutes</th><th>Teacher action</th><th>Student action</th></tr><tr><td>Hook</td><td>5</td><td>Display two possible plant locations. Ask which is better without supplying the answer.</td><td>Students make an initial prediction individually by drawing, writing or speaking.</td></tr><tr><td>Model</td><td>8</td><td>Name the goal and criteria. Think aloud about one observation from a different example.</td><td>Students explain which criterion the example meets and what evidence is still missing.</td></tr><tr><td>Guided practice</td><td>8</td><td>Co-construct one evidence statement on the board.</td><td>Pairs complete a second statement using an observation they can point to.</td></tr><tr><td>Independent application</td><td>12</td><td>Give each learner a fresh prediction–evidence–revision organizer.</td><td>Students choose a location, cite two observations and revise their initial prediction if needed.</td></tr><tr><td>Closure</td><td>7</td><td>Collect an individual explanation and sort responses by the missing reasoning.</td><td>Students name one change they made and one question for the next lesson.</td></tr></table><h3>Differentiation</h3><ul><li>Support: supply two observation cards and a three-box organizer; allow oral explanation or teacher scribing.</li><li>Extend: ask learners to propose a competing explanation and an observation that would discriminate between the claims.</li><li>Language: preview shade, observation and evidence with pictures; use “I recommend … because I observed …”.</li></ul><h3>Assessment and teacher notes</h3><p>During the guided task, inspect an explanation from every learner and name the misconception before giving a correction. The final new-case response is the independent evidence. Compare it with the same criteria used in the model; use the capacity-matrix reflection as self-assessment. If time is short, reduce the number of decorative/production features and preserve modeling, individual practice and the final explanation.</p>",
+          "videos": [
+            {
+              "provider": "local",
+              "file": "media/videos/m01-v04.mp4",
+              "captions": "media/videos/m01-v04.vtt"
+            }
+          ],
+          "topics": []
+        },
+        {
+          "id": "lesson-0-3",
+          "title": "1.3 Resources and Knowledge Check",
+          "slug": "1-3-resources-and-knowledge-check",
+          "content": "<h3>Course resources</h3><ul><li><a href=\"media/resources/ecosystem-field-guide.html\">All 68 destinations: ecosystem field guide</a></li><li><a href=\"media/resources/evidence-notes.html\">Research and effect-size notes</a></li><li><a href=\"media/resources/learning-design-worksheet.html\">Learning design worksheet</a></li><li><a href=\"media/resources/feedback-practice.html\">Feedback samples and revision task</a></li><li><a href=\"media/resources/capstone-checklist.html\">Capstone self-check</a></li><li><a href=\"media/resources/game-selection-guide.html\">K–12 game selection and access guide</a></li><li><a href=\"media/resources/schoolyard-observations.csv\">Fictional schoolyard observations dataset (CSV)</a></li></ul><h3>Official help</h3><ul><li><a href=\"https://splatworks.org/studio/\">Studio directory</a> — search by a learning task.</li><li><a href=\"https://splatworks.org/wiki/for-educators.html\">Educator guidance</a> — check classroom and saving workflows.</li><li><a href=\"https://splatworks.org/legal/terms-privacy.html\">Privacy and terms</a> — distinguish browser-only work from connected services.</li></ul><h3>Knowledge check</h3><p>Answer all five questions. You need 80% to pass. Review the feedback and retry as needed. Completing this quiz does not submit or grade your practice artifact.</p>",
+          "videos": [],
+          "topics": [],
+          "quiz": {
+            "id": "quiz-0-3",
+            "pass": 80,
+            "shuffle": true,
+            "questions": [
+              {
+                "qid": "q0",
+                "type": "single",
+                "text": "A teacher wants students to explain how two observations support a claim. What should come first?",
+                "options": [
+                  {
+                    "text": "Choose the app with the most animations",
+                    "correct": false
+                  },
+                  {
+                    "text": "Name the intended thinking and evidence of success",
+                    "correct": true
+                  },
+                  {
+                    "text": "Promise a fixed effect size for the lesson",
+                    "correct": false
+                  },
+                  {
+                    "text": "Require every student to use all 68 tools",
+                    "correct": false
+                  }
+                ],
+                "feedback": "Begin with the learning intention and success criteria; then choose a tool that makes that thinking visible."
+              },
+              {
+                "qid": "q1",
+                "type": "single",
+                "text": "Which statement accurately describes the ecosystem?",
+                "options": [
+                  {
+                    "text": "SplatWorks is the ecosystem; DrawSplat is its whiteboard",
+                    "correct": true
+                  },
+                  {
+                    "text": "DrawSplat and PlanSplat are the same application",
+                    "correct": false
+                  },
+                  {
+                    "text": "Every tool requires a district student account",
+                    "correct": false
+                  },
+                  {
+                    "text": "SplatWorks consists only of spreadsheets",
+                    "correct": false
+                  }
+                ],
+                "feedback": "SplatWorks includes the whiteboard, office applications, planner, standalone tools, utilities and games."
+              },
+              {
+                "qid": "q2",
+                "type": "single",
+                "text": "Which saving routine best protects an editable project?",
+                "options": [
+                  {
+                    "text": "Keep only a screenshot",
+                    "correct": false
+                  },
+                  {
+                    "text": "Assume autosave follows the student to every domain",
+                    "correct": false
+                  },
+                  {
+                    "text": "Export an editable copy, reopen it, and keep a shareable export when needed",
+                    "correct": true
+                  },
+                  {
+                    "text": "Clear browser storage to force a backup",
+                    "correct": false
+                  }
+                ],
+                "feedback": "A reopened editable export verifies that the work can be recovered. A screenshot is useful for viewing but may not preserve editable objects."
+              },
+              {
+                "qid": "q3",
+                "type": "single",
+                "text": "A chart reports teacher clarity at 0.85. What can you responsibly infer?",
+                "options": [
+                  {
+                    "text": "Any SplatWorks lesson will improve scores by 85%",
+                    "correct": false
+                  },
+                  {
+                    "text": "All clarity studies measured this software",
+                    "correct": false
+                  },
+                  {
+                    "text": "The estimate should be added to every other strategy estimate",
+                    "correct": false
+                  },
+                  {
+                    "text": "It summarizes a research influence, not a guaranteed gain from an app",
+                    "correct": true
+                  }
+                ],
+                "feedback": "An effect size is not a percentage score gain or a product result. Context and the underlying study designs matter."
+              },
+              {
+                "qid": "q4",
+                "type": "single",
+                "text": "Which is a plan–monitor–evaluate routine?",
+                "options": [
+                  {
+                    "text": "Set a goal, check the evidence while working, and revise the next step",
+                    "correct": true
+                  },
+                  {
+                    "text": "Pick a random app every day",
+                    "correct": false
+                  },
+                  {
+                    "text": "Complete a checklist without examining the work",
+                    "correct": false
+                  },
+                  {
+                    "text": "Time students but never discuss a strategy",
+                    "correct": false
+                  }
+                ],
+                "feedback": "Self-regulation includes planning, monitoring progress and evaluating what to change; a timer or planner only supports that routine."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-2",
+      "key": "2",
+      "label": "Module 2",
+      "title": "Module 2: Teach and Create with DrawSplat",
+      "summary": "Make thinking visible through worked examples, concept relationships, structured talk and accessible visual creation.",
+      "lessons": [
+        {
+          "id": "lesson-1-0",
+          "title": "2.0 About the Module",
+          "slug": "2-0-about-the-module",
+          "content": "<p><img src=\"media/images/module-2-illustration.png\" alt=\"Concept illustration for module 2: Teach and Create with DrawSplat\" style=\"width:100%;height:auto\"></p><p><em>Author-supplied concept artwork; use the real screenshots and app links for exact interfaces.</em></p><p>A whiteboard becomes instructional when the arrangement of objects reveals relationships and students explain their choices. In this module, build a three-stage worked-example sequence: a complete model, a partly completed task and a new independent problem. Show your reasoning before asking novices to invent a procedure.</p>\n<p>Use DrawSplat’s pen, text, shapes, sticky notes, images and panels for the smallest usable task. A background template can provide structure. Advanced tools include connectors, comments, audio notes and richer organization; availability depends on the current mode and school setup. Simple mode can reduce the number of controls facing young learners. Before class, test the functions your particular activity needs.</p>\n<p>For our plant inquiry, place <strong>Sunlight</strong>, <strong>Surface temperature</strong> and <strong>Water loss</strong> on a board. Connect the ideas and label each arrow with a relationship that a learner can defend. An arrow without a label can conceal a weak connection. A prompt such as “Why would this observation support that claim?” makes the reasoning visible.</p>\n<p>ConceptSplat is suited to visual relationships; DiagramSplat uses text syntax for structured diagrams. A diagram is not automatically an assessment: ask each learner to explain one connection in a new context. Group work needs a shared product and contributions from every learner. Assign a builder, an evidence checker and an explainer, then rotate the roles. When live collaboration is not configured, use one shared display with turn-taking or exchange exported files.</p>\n<p>Create purposeful assets with ImageSplat, BackdropSplat, FontSplat, GIFsplat, Draw &amp; Sketch, Coloring Book or MemeSplat. Use a picture to explain a relationship, not merely fill a corner. Describe the visual in text, keep contrast high, and avoid conveying meaning only through color. SketchSplat VR is an optional immersive extension; a flat image or model must remain a usable alternative.</p><h3>Learning goals</h3><ul><li>I can model a worked example on DrawSplat and gradually remove support.</li><li>I can use labeled relationships, diagrams and self-explanation to reveal a misconception.</li><li>I can structure roles and individual accountability in a collaborative activity.</li><li>I can produce an accessible visual with a readable hierarchy and a text explanation.</li></ul><h3>Time and capacity matrix</h3><p>Allow about 55 minutes including viewing, reading and practice. For each goal, record a before and after rating: 1 = new to me; 2 = can explain; 3 = can apply; 4 = can teach or adapt. Cite one artifact that supports your after-rating.</p><h3>Research lens</h3><p>The study reports an overall weighted mean g = 0.55 for prompted self-explanation. Ask learners to explain why a step or relationship makes sense, rather than simply narrating clicks. <a href=\"https://doi.org/10.1007/s10648-018-9434-x\">Bisra et al. (2018), Inducing Self-Explanation: A Meta-Analysis</a>.</p><p>EEF reports five additional months on average, with limited evidence security. Structure participation and a shared goal; placing students at the same screen does not by itself create effective collaboration. <a href=\"https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/collaborative-learning-approaches\">EEF, Collaborative learning approaches</a>.</p>",
+          "videos": [],
+          "topics": []
+        },
+        {
+          "id": "lesson-1-1",
+          "title": "2.1 Explore",
+          "slug": "2-1-explore",
+          "content": "<p>Open a linked app in another tab while you work. Each short video contains a concept, a workflow and a pause-and-try prompt. Use the transcript for a text-first route. Screenshots show the reviewed local build; a current app may look different.</p><h3>Worked examples that reveal the reasoning</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Worked examples that reveal the reasoning\" poster=\"media/videos/m02-v01-poster.jpg\"><source src=\"media/videos/m02-v01.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m02-v01.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m02-v01.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m02-v01.html\">Read the full transcript</a> · <a href=\"media/videos/m02-v01.vtt\">English caption file</a></p><h3>Concept maps, diagrams and purposeful visuals</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Concept maps, diagrams and purposeful visuals\" poster=\"media/videos/m02-v02-poster.jpg\"><source src=\"media/videos/m02-v02.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m02-v02.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m02-v02.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m02-v02.html\">Read the full transcript</a> · <a href=\"media/videos/m02-v02.vtt\">English caption file</a></p><h3>Collaboration with roles and individual evidence</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Collaboration with roles and individual evidence\" poster=\"media/videos/m02-v03-poster.jpg\"><source src=\"media/videos/m02-v03.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m02-v03.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m02-v03.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m02-v03.html\">Read the full transcript</a> · <a href=\"media/videos/m02-v03.vtt\">English caption file</a></p><h3>Open the tools</h3><ul><li><a href=\"https://splatworks.org/solutions/concept-map/\">ConceptSplat</a> — Represent relationships with labeled links and require a justification for each important connection.</li><li><a href=\"https://splatworks.org/solutions/mermaid/\">DiagramSplat</a> — Use text-based diagram syntax to make a process explicit; assess the process reasoning, not syntax alone.</li><li><a href=\"https://splatworks.org/solutions/imagesplat/\">ImageSplat™</a> — Annotate or adjust an image to expose evidence; preserve an original and identify consequential edits.</li><li><a href=\"https://splatworks.org/solutions/backdropsplat/\">BackdropSplat</a> — Isolate an authorized photo subject, then explain the evidence shown rather than assuming a cutout is more accurate.</li><li><a href=\"https://splatworks.org/solutions/fontsplat/\">FontSplat</a> — Create a clear heading or word image; ask whether its visual form helps the explanation.</li><li><a href=\"https://splatworks.org/solutions/gifsplat/\">GIFsplat™</a> — Animate a short change or process when motion clarifies it; provide a still/text equivalent.</li><li><a href=\"https://splatworks.org/solutions/drawsketch/\">Draw &amp; Sketch</a> — Offer a quick visual response route with an accompanying oral or written explanation.</li><li><a href=\"https://splatworks.org/solutions/coloring-book/\">Coloring Book</a> — Annotate a line-art model to represent an idea; include labels so meaning does not depend on color.</li><li><a href=\"https://splatworks.org/solutions/memesplat/\">MemeSplat™</a> — Represent a misconception and its correction with a captioned image; check tone and accuracy.</li><li><a href=\"https://splatworks.org/solutions/sketchspace-VR/\">SketchSplat VR</a> — Use an immersive view only when it serves the concept; provide a flat alternative and preview access needs.</li></ul>",
+          "videos": [
+            {
+              "provider": "local",
+              "file": "media/videos/m02-v01.mp4",
+              "captions": "media/videos/m02-v01.vtt"
+            },
+            {
+              "provider": "local",
+              "file": "media/videos/m02-v02.mp4",
+              "captions": "media/videos/m02-v02.vtt"
+            },
+            {
+              "provider": "local",
+              "file": "media/videos/m02-v03.mp4",
+              "captions": "media/videos/m02-v03.vtt"
+            }
+          ],
+          "topics": []
+        },
+        {
+          "id": "lesson-1-2",
+          "title": "2.2 Practice On Your Own",
+          "slug": "2-2-practice-on-your-own",
+          "content": "<h3>Make a worked-example and explanation board</h3><p>Create a three-panel task for one misconception you regularly encounter. Suggested example: students treat “more sunlight” as always meaning “better for every plant” without considering heat or water.</p>\n<ol><li>Build a complete model with two observations, a labeled connection and a short explanation of why the evidence supports the claim. Think aloud about an alternative explanation.</li><li>Duplicate the structure. Remove one observation or one explanation step; learners will complete it with a partner.</li><li>Create an independent case with different observations. Require a fresh explanation rather than a copied sentence.</li><li>Make one visual asset in a creation tool. For example, annotate an image in ImageSplat or create a simple concept map in ConceptSplat. Keep a text equivalent beside it.</li><li>Rehearse a role rotation: builder places a claim, checker challenges its evidence, explainer justifies one connection. Every learner writes or records a final individual explanation.</li><li>Save and reopen the editable board and the asset. Record the chosen tool’s role in the reasoning.</li></ol>\n<p><strong>Deliverable:</strong> three learning panels, one purposeful visual and a 60-second teacher think-aloud script.</p>\n<p><strong>Self-check:</strong> the model explains why, the partially completed example has a useful scaffold, the independent task is genuinely new, and a learner can respond without relying on color or hearing.</p>\n<p><strong>Reflect:</strong> Which student connection would reveal the misconception most clearly? What question would you ask before offering the answer?</p><h3>Walkthrough: build an explanation board</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Walkthrough: build an explanation board\" poster=\"media/videos/m02-v04-poster.jpg\"><source src=\"media/videos/m02-v04.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m02-v04.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m02-v04.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m02-v04.html\">Read the full transcript</a> · <a href=\"media/videos/m02-v04.vtt\">English caption file</a></p><h3>Ready-to-adapt classroom sequence</h3><p>Choose the content standard and grade expectations already used in your setting. The timings below describe one classroom adaptation, separate from your course study time.</p><table><tr><th>Phase</th><th>Minutes</th><th>Teacher action</th><th>Student action</th></tr><tr><td>Hook</td><td>4</td><td>Display a plausible but incomplete concept map. Ask which arrow is hardest to defend.</td><td>Students identify a weak connection independently.</td></tr><tr><td>Model</td><td>10</td><td>Build one labeled relationship and explain why the observation supports it.</td><td>Students restate the reasoning using their own words.</td></tr><tr><td>Guided practice</td><td>10</td><td>Provide a map with one missing link and assign rotating roles.</td><td>Groups complete the link; each member explains a different part.</td></tr><tr><td>Independent application</td><td>10</td><td>Give a new observation and remove the map scaffold.</td><td>Each learner builds a small explanation with evidence.</td></tr><tr><td>Closure</td><td>6</td><td>Compare two explanations against the criteria without ranking the artwork.</td><td>Students revise one connection and describe the reason for the revision.</td></tr></table><h3>Differentiation</h3><ul><li>Support: supply movable concept cards and two possible relationship verbs; model a shorter example before releasing the task.</li><li>Extend: require a counterexample or a competing causal map and identify evidence that would favor one model.</li><li>Language: offer the frames “This increases … because …” and “This observation does not show …”; allow rehearsal before writing.</li></ul><h3>Assessment and teacher notes</h3><p>During the guided task, inspect an explanation from every learner and name the misconception before giving a correction. The final new-case response is the independent evidence. Compare it with the same criteria used in the model; use the capacity-matrix reflection as self-assessment. If time is short, reduce the number of decorative/production features and preserve modeling, individual practice and the final explanation.</p>",
+          "videos": [
+            {
+              "provider": "local",
+              "file": "media/videos/m02-v04.mp4",
+              "captions": "media/videos/m02-v04.vtt"
+            }
+          ],
+          "topics": []
+        },
+        {
+          "id": "lesson-1-3",
+          "title": "2.3 Resources and Knowledge Check",
+          "slug": "2-3-resources-and-knowledge-check",
+          "content": "<h3>Course resources</h3><ul><li><a href=\"media/resources/ecosystem-field-guide.html\">All 68 destinations: ecosystem field guide</a></li><li><a href=\"media/resources/evidence-notes.html\">Research and effect-size notes</a></li><li><a href=\"media/resources/learning-design-worksheet.html\">Learning design worksheet</a></li><li><a href=\"media/resources/feedback-practice.html\">Feedback samples and revision task</a></li><li><a href=\"media/resources/capstone-checklist.html\">Capstone self-check</a></li><li><a href=\"media/resources/game-selection-guide.html\">K–12 game selection and access guide</a></li><li><a href=\"media/resources/schoolyard-observations.csv\">Fictional schoolyard observations dataset (CSV)</a></li></ul><h3>Official help</h3><ul><li><a href=\"https://splatworks.org/studio/\">Studio directory</a> — search by a learning task.</li><li><a href=\"https://splatworks.org/wiki/for-educators.html\">Educator guidance</a> — check classroom and saving workflows.</li><li><a href=\"https://splatworks.org/legal/terms-privacy.html\">Privacy and terms</a> — distinguish browser-only work from connected services.</li></ul><h3>Knowledge check</h3><p>Answer all five questions. You need 80% to pass. Review the feedback and retry as needed. Completing this quiz does not submit or grade your practice artifact.</p>",
+          "videos": [],
+          "topics": [],
+          "quiz": {
+            "id": "quiz-1-3",
+            "pass": 80,
+            "shuffle": true,
+            "questions": [
+              {
+                "qid": "q0",
+                "type": "single",
+                "text": "Which board best supports self-explanation?",
+                "options": [
+                  {
+                    "text": "A page filled with decorative stickers",
+                    "correct": false
+                  },
+                  {
+                    "text": "A color-coded list with no question",
+                    "correct": false
+                  },
+                  {
+                    "text": "A map with labeled links and a prompt asking why the evidence supports the claim",
+                    "correct": true
+                  },
+                  {
+                    "text": "A screenshot learners copy exactly",
+                    "correct": false
+                  }
+                ],
+                "feedback": "Self-explanation requires learners to make and justify relationships; visual decoration and copying do not establish that reasoning."
+              },
+              {
+                "qid": "q1",
+                "type": "single",
+                "text": "How should a novice worked-example sequence develop?",
+                "options": [
+                  {
+                    "text": "Complete model, partly completed example, then a new independent problem",
+                    "correct": true
+                  },
+                  {
+                    "text": "Independent problem first, followed only by a score",
+                    "correct": false
+                  },
+                  {
+                    "text": "Remove all explanation from every example",
+                    "correct": false
+                  },
+                  {
+                    "text": "Show the same finished answer three times",
+                    "correct": false
+                  }
+                ],
+                "feedback": "Model the reasoning, gradually remove support and check transfer with a fresh task."
+              },
+              {
+                "qid": "q2",
+                "type": "single",
+                "text": "Three learners share one device. Which design provides individual accountability?",
+                "options": [
+                  {
+                    "text": "Let the fastest learner make every decision",
+                    "correct": false
+                  },
+                  {
+                    "text": "Grade only how colorful the shared map is",
+                    "correct": false
+                  },
+                  {
+                    "text": "Give everyone the same unchanging role",
+                    "correct": false
+                  },
+                  {
+                    "text": "Rotate roles and collect a final explanation from each learner",
+                    "correct": true
+                  }
+                ],
+                "feedback": "A shared product needs structured participation and individual evidence of learning."
+              },
+              {
+                "qid": "q3",
+                "type": "single",
+                "text": "A visual uses green for evidence and red for claims. What should be added?",
+                "options": [
+                  {
+                    "text": "More shades of red",
+                    "correct": false
+                  },
+                  {
+                    "text": "Text labels or other cues plus a meaningful text explanation",
+                    "correct": true
+                  },
+                  {
+                    "text": "A requirement to hear the teacher’s explanation",
+                    "correct": false
+                  },
+                  {
+                    "text": "A smaller font to fit everything",
+                    "correct": false
+                  }
+                ],
+                "feedback": "Labels and text alternatives keep the meaning available to learners who cannot distinguish colors or access the visual in the same way."
+              },
+              {
+                "qid": "q4",
+                "type": "single",
+                "text": "Which is the best reason to use ConceptSplat or DiagramSplat?",
+                "options": [
+                  {
+                    "text": "The tool guarantees improved test scores",
+                    "correct": false
+                  },
+                  {
+                    "text": "Every classroom task requires code syntax",
+                    "correct": false
+                  },
+                  {
+                    "text": "The selected format helps learners represent and explain the needed relationships",
+                    "correct": true
+                  },
+                  {
+                    "text": "The tool eliminates the need to check misconceptions",
+                    "correct": false
+                  }
+                ],
+                "feedback": "Choose a diagram format because it supports the intended representation and explanation; assess the reasoning afterwards."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-3",
+      "key": "3",
+      "label": "Module 3",
+      "title": "Module 3: Build with SplatWorks Apps and Media Tools",
+      "summary": "Move from evidence to explanations, publications and accessible media while keeping editable source files.",
+      "lessons": [
+        {
+          "id": "lesson-2-0",
+          "title": "3.0 About the Module",
+          "slug": "3-0-about-the-module",
+          "content": "<p><img src=\"media/images/module-3-illustration.png\" alt=\"Concept illustration for module 3: Build with SplatWorks Apps and Media Tools\" style=\"width:100%;height:auto\"></p><p><em>Author-supplied concept artwork; use the real screenshots and app links for exact interfaces.</em></p><p>The office and media tools support different parts of the same learning cycle. WriteSplat develops a written explanation. ShowSplat makes a sequence for presenting it. GridSplat calculates and visualizes numerical evidence; ListSplat structures records. LayoutSplat designs a publication or ebook. PlanSplat organizes the work over time. A learner might use two of these well rather than open all of them in one lesson.</p>\n<p>Use the supplied fictional <strong>Schoolyard observations</strong> dataset. Four records describe locations, temperature and notes from one imagined observation period. They exist only for practice: they are not measurements from a real school and cannot establish that shade caused a temperature change. ListSplat can store the records; GridSplat or GraphSplat can compare the values. Ask what else would need to be observed before a strong claim is justified.</p>\n<p>Write a claim–evidence–reasoning paragraph, then turn it into three ShowSplat slides: a question, evidence and a recommendation with a limitation. In LayoutSplat, adapt it into a one-page field guide or short ebook. MarkdownSplat is a useful route for structured source text. PDFsplat can annotate a source, organize pages or present a PDF. Check an exported file rather than assuming every import or conversion preserves the original layout.</p>\n<p>Media tools differ by task. ClipSplat records/imports clips and combines illustrated panels or image cards with cuts. VideoSplat offers timeline editing, named markers, captions and privacy tools. MediaSplat splits, trims or joins audio/video. AudioSplat records and edits multitrack audio. GIFsplat, explored in module 2, creates short visual sequences; reserve motion for something that benefits from motion.</p>\n<p>The included course videos are optional narrated visual overviews with synthetic English narration, real screenshots and explanatory slides. They are not live recordings of a person manipulating the apps. Their captions and full transcripts are supplied locally. Follow the linked app while working, pause often, and use the text alternative whenever that is easier.</p><h3>Learning goals</h3><ul><li>I can select among WriteSplat, ShowSplat, GridSplat, ListSplat, LayoutSplat and PlanSplat for a defined purpose.</li><li>I can organize records and chart a small dataset without overstating what the data show.</li><li>I can explain when ClipSplat, VideoSplat, MediaSplat and AudioSplat solve different production needs.</li><li>I can create a short accessible explanation with a source file, export, transcript and checked captions.</li></ul><h3>Time and capacity matrix</h3><p>Allow about 65 minutes including viewing, reading and practice. For each goal, record a before and after rating: 1 = new to me; 2 = can explain; 3 = can apply; 4 = can teach or adapt. Cite one artifact that supports your after-rating.</p><h3>Research lens</h3><p>EEF summarizes this strand as high impact, averaging eight additional months of progress. Months of progress are a separate metric from d or g. Teach planning, monitoring and evaluation within subject learning. <a href=\"https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation\">EEF, Metacognition and self-regulation</a>.</p><p>The study reports an overall weighted mean g = 0.55 for prompted self-explanation. Ask learners to explain why a step or relationship makes sense, rather than simply narrating clicks. <a href=\"https://doi.org/10.1007/s10648-018-9434-x\">Bisra et al. (2018), Inducing Self-Explanation: A Meta-Analysis</a>.</p>",
+          "videos": [],
+          "topics": []
+        },
+        {
+          "id": "lesson-2-1",
+          "title": "3.1 Explore",
+          "slug": "3-1-explore",
+          "content": "<p>Open a linked app in another tab while you work. Each short video contains a concept, a workflow and a pause-and-try prompt. Use the transcript for a text-first route. Screenshots show the reviewed local build; a current app may look different.</p><h3>From written explanation to publication</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"From written explanation to publication\" poster=\"media/videos/m03-v01-poster.jpg\"><source src=\"media/videos/m03-v01.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m03-v01.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m03-v01.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m03-v01.html\">Read the full transcript</a> · <a href=\"media/videos/m03-v01.vtt\">English caption file</a></p><h3>Organize and graph evidence without overclaiming</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Organize and graph evidence without overclaiming\" poster=\"media/videos/m03-v02-poster.jpg\"><source src=\"media/videos/m03-v02.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m03-v02.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m03-v02.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m03-v02.html\">Read the full transcript</a> · <a href=\"media/videos/m03-v02.vtt\">English caption file</a></p><h3>Choose an accessible media workflow</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Choose an accessible media workflow\" poster=\"media/videos/m03-v03-poster.jpg\"><source src=\"media/videos/m03-v03.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m03-v03.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m03-v03.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m03-v03.html\">Read the full transcript</a> · <a href=\"media/videos/m03-v03.vtt\">English caption file</a></p><h3>Open the tools</h3><ul><li><a href=\"https://splatworks.org/splatworks/writesplat/\">WriteSplat</a> — Draft and revise a claim–evidence–reasoning paragraph using explicit criteria.</li><li><a href=\"https://splatworks.org/splatworks/showsplat/\">ShowSplat</a> — Present a question, evidence and recommendation in a deliberately sequenced explanation.</li><li><a href=\"https://splatworks.org/splatworks/gridsplat/\">GridSplat</a> — Calculate and chart the fictional observations, then check units and limitations.</li><li><a href=\"https://splatworks.org/splatworks/listsplat/\">ListSplat</a> — Structure observations or a vocabulary bank as records; discuss which fields belong in each record.</li><li><a href=\"https://splatworks.org/splatworks/layoutsplat/\">LayoutSplat</a> — Design a readable field guide, comic or ebook; check exported reading order and the accuracy of the content.</li><li><a href=\"https://splatworks.org/solutions/markdown-studio/\">MarkdownSplat</a> — Keep structured source text for a lesson, explanation or handout, then inspect the exported result.</li><li><a href=\"https://splatworks.org/solutions/graphsplat/\">GraphSplat</a> — Choose a chart, picture graph, coordinate plot or function view that matches the mathematical question.</li><li><a href=\"https://splatworks.org/solutions/pdfsplat/\">PDFsplat</a> — Annotate a source, organize a reading set or present a PDF; keep a recoverable source copy.</li><li><a href=\"https://splatworks.org/solutions/clipsplat/\">ClipSplat</a> — Combine a short recording with an explanatory title or image card; trim material that distracts from the claim.</li><li><a href=\"https://splatworks.org/solutions/videosplat/\">VideoSplat</a> — Edit an evidence explainer with an inspectable timeline, checked captions and a source project.</li><li><a href=\"https://splatworks.org/solutions/mediasplat/\">MediaSplat</a> — Split, trim or join a media excerpt so it preserves the important explanation and necessary context.</li><li><a href=\"https://splatworks.org/solutions/audiosplat/\">AudioSplat</a> — Record an explanation or podcast segment with a transcript and a clear evidence-based script.</li></ul><p><a href=\"https://splatworks.org/splatworks/plansplat/\">PlanSplat</a> supports the office workflow’s planning stage; <a href=\"https://splatworks.org/solutions/gifsplat/\">GIFsplat</a> is the short-animation route introduced in module 2.</p>",
+          "videos": [
+            {
+              "provider": "local",
+              "file": "media/videos/m03-v01.mp4",
+              "captions": "media/videos/m03-v01.vtt"
+            },
+            {
+              "provider": "local",
+              "file": "media/videos/m03-v02.mp4",
+              "captions": "media/videos/m03-v02.vtt"
+            },
+            {
+              "provider": "local",
+              "file": "media/videos/m03-v03.mp4",
+              "captions": "media/videos/m03-v03.vtt"
+            }
+          ],
+          "topics": []
+        },
+        {
+          "id": "lesson-2-2",
+          "title": "3.2 Practice On Your Own",
+          "slug": "3-2-practice-on-your-own",
+          "content": "<h3>Produce a one-minute evidence explainer</h3><p>Use the supplied sample data or a non-sensitive dataset from your own curriculum. The practice target is a 45–75 second explanation for a specific audience, supported by a chart and a readable text alternative.</p>\n<ol><li>Open <a href=\"media/resources/schoolyard-observations.csv\">schoolyard-observations.csv</a>. Identify the unit, the number of observations and one limitation. Import the data into GridSplat or GraphSplat and create a clearly titled comparison chart with labeled units.</li><li>In WriteSplat or MarkdownSplat, draft 100–140 words: a recommendation, two numerical observations, the reasoning and one uncertainty. Compare your text against the criteria before recording.</li><li>Use ShowSplat to plan three visual moments. Include a chart or an annotated image, not a paragraph copied onto a slide. Save the editable source.</li><li>Choose a media route. Record narration in AudioSplat and assemble a visual explanation in ClipSplat or VideoSplat; use MediaSplat for straightforward trimming/joining. If recording is unavailable, produce a three-slide explanation with speaker notes and a written transcript.</li><li>Add or check captions when producing a video. Correct names, numbers and timing; automatic captions require human review. Remove identifying information and use only media you may reuse.</li><li>Export the explanation and test it on another player or browser. Save the project, the export, the caption file and the transcript together. Include your chart’s text summary.</li></ol>\n<p><strong>Deliverable:</strong> a short explainer or equivalent slide-and-text response, its source file, the chart and an accessibility check.</p>\n<p><strong>Self-check:</strong> a viewer can identify the claim, verify the cited values and hear or read the limitation. The explanation remains usable without sound.</p>\n<p><strong>Reflect:</strong> What did you omit to reduce unnecessary processing? Which choice made the evidence easier to inspect?</p><h3>Walkthrough: a one-minute evidence explainer</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Walkthrough: a one-minute evidence explainer\" poster=\"media/videos/m03-v04-poster.jpg\"><source src=\"media/videos/m03-v04.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m03-v04.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m03-v04.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m03-v04.html\">Read the full transcript</a> · <a href=\"media/videos/m03-v04.vtt\">English caption file</a></p><h3>Ready-to-adapt classroom sequence</h3><p>Choose the content standard and grade expectations already used in your setting. The timings below describe one classroom adaptation, separate from your course study time.</p><table><tr><th>Phase</th><th>Minutes</th><th>Teacher action</th><th>Student action</th></tr><tr><td>Hook</td><td>5</td><td>Display two charts made from the same fictional observations, one missing units.</td><td>Students identify which is easier to interpret and why.</td></tr><tr><td>Model</td><td>8</td><td>Think aloud while converting one data value into a supported sentence.</td><td>Students distinguish the observation from an inference.</td></tr><tr><td>Guided practice</td><td>10</td><td>Build a short chart summary with the class and label a limitation.</td><td>Pairs check the values and rehearse a sentence aloud.</td></tr><tr><td>Production</td><td>15</td><td>Offer video, slides with notes or written/visual explanation as equivalent response routes.</td><td>Students produce a concise explanation and check it against the same content criteria.</td></tr><tr><td>Closure</td><td>7</td><td>Ask a partner to access the explanation with audio off.</td><td>Students repair an access issue and submit an individual evidence statement.</td></tr></table><h3>Differentiation</h3><ul><li>Support: use a prepared chart, a storyboard and a sentence frame so the content reasoning remains attainable.</li><li>Extend: compare the sample with a second observation period, identify a confound or explain why the sample cannot support a causal claim.</li><li>Language: supply a bilingual key-word list where available and permit rehearsal or a first-language planning draft before the final response.</li></ul><h3>Assessment and teacher notes</h3><p>During the guided task, inspect an explanation from every learner and name the misconception before giving a correction. The final new-case response is the independent evidence. Compare it with the same criteria used in the model; use the capacity-matrix reflection as self-assessment. If time is short, reduce the number of decorative/production features and preserve modeling, individual practice and the final explanation.</p>",
+          "videos": [
+            {
+              "provider": "local",
+              "file": "media/videos/m03-v04.mp4",
+              "captions": "media/videos/m03-v04.vtt"
+            }
+          ],
+          "topics": []
+        },
+        {
+          "id": "lesson-2-3",
+          "title": "3.3 Resources and Knowledge Check",
+          "slug": "3-3-resources-and-knowledge-check",
+          "content": "<h3>Course resources</h3><ul><li><a href=\"media/resources/ecosystem-field-guide.html\">All 68 destinations: ecosystem field guide</a></li><li><a href=\"media/resources/evidence-notes.html\">Research and effect-size notes</a></li><li><a href=\"media/resources/learning-design-worksheet.html\">Learning design worksheet</a></li><li><a href=\"media/resources/feedback-practice.html\">Feedback samples and revision task</a></li><li><a href=\"media/resources/capstone-checklist.html\">Capstone self-check</a></li><li><a href=\"media/resources/game-selection-guide.html\">K–12 game selection and access guide</a></li><li><a href=\"media/resources/schoolyard-observations.csv\">Fictional schoolyard observations dataset (CSV)</a></li></ul><h3>Official help</h3><ul><li><a href=\"https://splatworks.org/studio/\">Studio directory</a> — search by a learning task.</li><li><a href=\"https://splatworks.org/wiki/for-educators.html\">Educator guidance</a> — check classroom and saving workflows.</li><li><a href=\"https://splatworks.org/legal/terms-privacy.html\">Privacy and terms</a> — distinguish browser-only work from connected services.</li></ul><h3>Knowledge check</h3><p>Answer all five questions. You need 80% to pass. Review the feedback and retry as needed. Completing this quiz does not submit or grade your practice artifact.</p>",
+          "videos": [],
+          "topics": [],
+          "quiz": {
+            "id": "quiz-2-3",
+            "pass": 80,
+            "shuffle": true,
+            "questions": [
+              {
+                "qid": "q0",
+                "type": "single",
+                "text": "A learner needs editable numerical calculations and a chart. Which is the most direct starting point?",
+                "options": [
+                  {
+                    "text": "AudioSplat",
+                    "correct": false
+                  },
+                  {
+                    "text": "GridSplat",
+                    "correct": true
+                  },
+                  {
+                    "text": "CipherSplat",
+                    "correct": false
+                  },
+                  {
+                    "text": "Paws & Keys Adventure",
+                    "correct": false
+                  }
+                ],
+                "feedback": "GridSplat supports spreadsheets, formulas and classroom charts; GraphSplat is another useful chart-focused option."
+              },
+              {
+                "qid": "q1",
+                "type": "single",
+                "text": "Four fictional schoolyard records show lower temperatures in shade. What is the most responsible claim?",
+                "options": [
+                  {
+                    "text": "The sample illustrates a pattern, but cannot establish a general causal effect",
+                    "correct": true
+                  },
+                  {
+                    "text": "Shade always reduces temperatures by the same amount everywhere",
+                    "correct": false
+                  },
+                  {
+                    "text": "The dataset proves the app raises science achievement",
+                    "correct": false
+                  },
+                  {
+                    "text": "The sample can be described as real student research",
+                    "correct": false
+                  }
+                ],
+                "feedback": "The supplied data are fictional and small. Learners should separate the observed pattern from a causal or general claim."
+              },
+              {
+                "qid": "q2",
+                "type": "single",
+                "text": "Which media choice best matches a simple split/trim/join task?",
+                "options": [
+                  {
+                    "text": "ListSplat because it stores records",
+                    "correct": false
+                  },
+                  {
+                    "text": "RubricSplat because it scores criteria",
+                    "correct": false
+                  },
+                  {
+                    "text": "MediaSplat because that is its direct editing role",
+                    "correct": true
+                  },
+                  {
+                    "text": "A word search because it uses vocabulary",
+                    "correct": false
+                  }
+                ],
+                "feedback": "MediaSplat focuses on splitting, trimming and joining media; VideoSplat is a richer timeline-editing option."
+              },
+              {
+                "qid": "q3",
+                "type": "single",
+                "text": "What must happen before treating automatic captions as ready to share?",
+                "options": [
+                  {
+                    "text": "Assume they are correct if the video plays",
+                    "correct": false
+                  },
+                  {
+                    "text": "Delete the transcript",
+                    "correct": false
+                  },
+                  {
+                    "text": "Speed up the narration",
+                    "correct": false
+                  },
+                  {
+                    "text": "Check words, numbers and timing against the actual media",
+                    "correct": true
+                  }
+                ],
+                "feedback": "Caption accuracy and timing need review, especially for technical terms and numerical evidence."
+              },
+              {
+                "qid": "q4",
+                "type": "single",
+                "text": "Why keep the project file as well as the exported video or document?",
+                "options": [
+                  {
+                    "text": "To preserve editable structure for later revision",
+                    "correct": true
+                  },
+                  {
+                    "text": "To claim the export cannot ever fail",
+                    "correct": false
+                  },
+                  {
+                    "text": "To replace every accessibility check",
+                    "correct": false
+                  },
+                  {
+                    "text": "To avoid explaining the learning goal",
+                    "correct": false
+                  }
+                ],
+                "feedback": "The project preserves editable work; the export is the shareable view. Both should be checked and stored deliberately."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-4",
+      "key": "4",
+      "label": "Module 4",
+      "title": "Module 4: Practice, Feedback and Assessment",
+      "summary": "Build retrieval, feedback and revision routines that reveal learning rather than simply accumulate scores.",
+      "lessons": [
+        {
+          "id": "lesson-3-0",
+          "title": "4.0 About the Module",
+          "slug": "4-0-about-the-module",
+          "content": "<p><img src=\"media/images/module-4-illustration.png\" alt=\"Concept illustration for module 4: Practice, Feedback and Assessment\" style=\"width:100%;height:auto\"></p><p><em>Author-supplied concept artwork; use the real screenshots and app links for exact interfaces.</em></p><p>Practice is most informative when it reveals what a learner can do without looking at the answer. Use a short retrieval prompt at the beginning of a lesson, corrective feedback after the attempt and a related prompt later in the week. Reusing the identical visible answer may build familiarity without establishing independent recall.</p>\n<p>QuizSplat supports quizzes, flashcards and team activity formats. Choose a question that requires the intended thinking. For a flashcard, ask the learner to answer before revealing the reverse. For a team activity, have every learner commit to a response before the group discusses it. A team score can guide the energy of a session but cannot replace individual evidence.</p>\n<p>RubricSplat can help define a few observable criteria for an explanation. For our inquiry, use evidence accuracy, reasoning and communication/access. Say what the work currently demonstrates and the next action that would improve it. Replace “Great job!” alone with “Your claim names a location; add the temperature values and explain why they support it.” Reserve time for the learner to act on that message.</p>\n<p>Toneshifter and Vibe Check can support a discussion about the tone of feedback. Treat tool suggestions as suggestions; verify that meaning, accuracy and respect remain intact. Do not infer a student’s feelings, identity or intentions from a tone label.</p>\n<p>Classroom utilities organize participation. Wheel Spinner and Fortune Wheel can select a prompt; Story Wheel can combine writing ideas. Dicebreakers can create discussion turns. Bingo tools and Word Search Maker can support vocabulary activity, but recognition should be followed by explanation or retrieval. Coin Flipper and Dice Roller can generate data for probability. Timers, random choices and attractive points are classroom supports, not evidence that learning occurred.</p>\n<p>The supplied module illustration contains imagined labels such as ReflectSplat, ProgressSplat, FeedbackSplat and CoachSplat. These represent teaching routines in the artwork; they are not listed as actual products in the reviewed ecosystem. Use QuizSplat, RubricSplat, the whiteboard and your own feedback processes for the real activities.</p><h3>Learning goals</h3><ul><li>I can distinguish retrieval practice, recognition, engagement and evidence of transfer.</li><li>I can write a five-item low-stakes check with corrective feedback and a later revisit.</li><li>I can use a concise rubric to give criterion-based feedback that leads to a visible revision.</li><li>I can interpret classroom utility outputs without assuming they measure subject mastery.</li></ul><h3>Time and capacity matrix</h3><p>Allow about 55 minutes including viewing, reading and practice. For each goal, record a before and after rating: 1 = new to me; 2 = can explain; 3 = can apply; 4 = can teach or adapt. Cite one artifact that supports your after-rating.</p><h3>Research lens</h3><p>A review of 222 classroom studies reports an overall Hedges’ g of 0.499 for quizzing. Comparators, timing and feedback matter; typing a displayed answer is not the same task as recalling it. <a href=\"https://scholars.hkbu.edu.hk/en/publications/testing-quizzing-boosts-classroom-learning-a-systematic-and-meta-/\">Yang et al. (2021), Testing (Quizzing) Boosts Classroom Learning</a>.</p><p>This meta-analysis reports d = 0.48 after excluding extreme values. A high-information-feedback subgroup reports d = 0.99. The subgroup is not interchangeable with the overall estimate, and effects vary widely. <a href=\"https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.03087/full\">Wisniewski, Zierer &amp; Hattie (2020), The Power of Feedback Revisited</a>.</p>",
+          "videos": [],
+          "topics": []
+        },
+        {
+          "id": "lesson-3-1",
+          "title": "4.1 Explore",
+          "slug": "4-1-explore",
+          "content": "<p>Open a linked app in another tab while you work. Each short video contains a concept, a workflow and a pause-and-try prompt. Use the transcript for a text-first route. Screenshots show the reviewed local build; a current app may look different.</p><h3>Retrieval that goes beyond recognition</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Retrieval that goes beyond recognition\" poster=\"media/videos/m04-v01-poster.jpg\"><source src=\"media/videos/m04-v01.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m04-v01.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m04-v01.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m04-v01.html\">Read the full transcript</a> · <a href=\"media/videos/m04-v01.vtt\">English caption file</a></p><h3>Feedback that changes the next attempt</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Feedback that changes the next attempt\" poster=\"media/videos/m04-v02-poster.jpg\"><source src=\"media/videos/m04-v02.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m04-v02.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m04-v02.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m04-v02.html\">Read the full transcript</a> · <a href=\"media/videos/m04-v02.vtt\">English caption file</a></p><h3>Classroom utilities with a learning purpose</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Classroom utilities with a learning purpose\" poster=\"media/videos/m04-v03-poster.jpg\"><source src=\"media/videos/m04-v03.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m04-v03.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m04-v03.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m04-v03.html\">Read the full transcript</a> · <a href=\"media/videos/m04-v03.vtt\">English caption file</a></p><h3>Open the tools</h3><ul><li><a href=\"https://splatworks.org/solutions/quiz-flashcard-studio/\">QuizSplat</a> — Ask for retrieval before answer reveal, give corrective feedback and revisit with a new example.</li><li><a href=\"https://splatworks.org/solutions/rubric-builder/\">RubricSplat</a> — Describe a few observable criteria and use feedback to produce a visible revision.</li><li><a href=\"https://splatworks.org/solutions/toneshifter/\">Toneshifter</a> — Compare suggested rewrites for meaning and respect; the author remains responsible for accuracy.</li><li><a href=\"https://splatworks.org/solutions/vibe-check/\">Vibe Check</a> — Discuss how a message may be received; do not infer a student’s identity or mental state from a label.</li><li><a href=\"https://splatworks.org/solutions/wheel-spinner/\">Wheel Spinner</a> — Select a prompt or turn from a reviewed list, with thinking time and individual accountability.</li><li><a href=\"https://splatworks.org/solutions/fortune/\">Fortune Wheel</a> — Select a teacher-reviewed prompt; ensure every learner prepares a response before the spin.</li><li><a href=\"https://splatworks.org/solutions/storywheel/\">Story Wheel</a> — Generate a writing constraint, then assess narrative reasoning against the criteria rather than chance.</li><li><a href=\"https://splatworks.org/solutions/wordsearch/\">Word Search Maker</a> — Practice noticing word forms, then check meaning and application independently.</li><li><a href=\"https://splatworks.org/solutions/bingo-caller/\">Bingo Caller</a> — Run a short vocabulary round, then require explanations rather than counting recognition as mastery.</li><li><a href=\"https://splatworks.org/solutions/bingo-card-generator/\">Bingo Card Generator</a> — Prepare a print option for the same vocabulary routine and collect an individual application afterwards.</li><li><a href=\"https://splatworks.org/solutions/web-bingo-maker/\">WebBingoMaker</a> — Use randomized virtual cards when suitable; avoid equating the first completed card with strongest understanding.</li><li><a href=\"https://splatworks.org/solutions/dicebreakers/\">Dicebreaker Creator</a> — Structure low-risk discussion turns and provide thinking/rehearsal time before the response.</li><li><a href=\"https://splatworks.org/solutions/coinflipping/\">Coin Flipper</a> — Predict and record coin outcomes; discuss random variation without treating a tiny sample as a guarantee.</li><li><a href=\"https://splatworks.org/solutions/dice/\">Dice Roller</a> — Generate and record probability data or choose a prompt; separate randomness from student achievement.</li></ul>",
+          "videos": [
+            {
+              "provider": "local",
+              "file": "media/videos/m04-v01.mp4",
+              "captions": "media/videos/m04-v01.vtt"
+            },
+            {
+              "provider": "local",
+              "file": "media/videos/m04-v02.mp4",
+              "captions": "media/videos/m04-v02.vtt"
+            },
+            {
+              "provider": "local",
+              "file": "media/videos/m04-v03.mp4",
+              "captions": "media/videos/m04-v03.vtt"
+            }
+          ],
+          "topics": []
+        },
+        {
+          "id": "lesson-3-2",
+          "title": "4.2 Practice On Your Own",
+          "slug": "4-2-practice-on-your-own",
+          "content": "<h3>Run a retrieve–respond–revise cycle</h3><p>Build a small assessment cycle for the same goal used in earlier modules. Use QuizSplat or the supplied planning worksheet; a paper version is equally acceptable.</p>\n<ol><li>Write five prompts: two essential facts, two reasoning questions and one new-case application. For example, ask students to explain why a single temperature observation cannot establish a reliable trend.</li><li>Write corrective feedback for each. Include the reasoning and the next useful action, not just “incorrect”. Avoid tricky wording unrelated to the goal.</li><li>Use RubricSplat or the supplied criteria to define three criteria: accurate evidence, justified reasoning and accessible communication. Write what “ready”, “developing” and “revise” would look like for each.</li><li>Examine the supplied sample responses in <a href=\"media/resources/feedback-practice.html\">feedback practice</a>. Give one strength and one specific next action. Revise the weaker answer yourself so that the action has a visible result.</li><li>Schedule a fresh retrieval prompt for two days later in PlanSplat. Change the example while retaining the learning demand.</li><li>Decide how you will respond to an error pattern: another worked example, a targeted small group or a different explanation. Record the decision rule before seeing the results.</li></ol>\n<p><strong>Deliverable:</strong> five prompts with answers and feedback, a three-criterion scoring guide, an annotated revision and a follow-up plan.</p>\n<p><strong>Self-check:</strong> each question targets taught content; a learner can act on the feedback; the revision changes the reasoning, not merely the formatting.</p>\n<p><strong>Reflect:</strong> Which result would tell you to reteach rather than move ahead? Which result would justify an extension?</p><h3>Walkthrough: retrieve, respond and revise</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Walkthrough: retrieve, respond and revise\" poster=\"media/videos/m04-v04-poster.jpg\"><source src=\"media/videos/m04-v04.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m04-v04.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m04-v04.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m04-v04.html\">Read the full transcript</a> · <a href=\"media/videos/m04-v04.vtt\">English caption file</a></p><h3>Ready-to-adapt classroom sequence</h3><p>Choose the content standard and grade expectations already used in your setting. The timings below describe one classroom adaptation, separate from your course study time.</p><table><tr><th>Phase</th><th>Minutes</th><th>Teacher action</th><th>Student action</th></tr><tr><td>Retrieve</td><td>5</td><td>Ask two short questions without showing notes or answer choices.</td><td>Students commit an individual response before discussion.</td></tr><tr><td>Explain and check</td><td>8</td><td>Model the reasoning behind one answer and invite comparison.</td><td>Students identify the step where their reasoning differed.</td></tr><tr><td>Guided feedback</td><td>10</td><td>Use a shared sample to model one criterion-based next step.</td><td>Pairs write feedback and verify that it names an action.</td></tr><tr><td>Revise</td><td>12</td><td>Provide a new case and a visible revision window.</td><td>Each student applies feedback and highlights the changed reasoning.</td></tr><tr><td>Closure</td><td>5</td><td>Collect an exit explanation and schedule a later revisit.</td><td>Students name the strategy they will reuse on the next example.</td></tr></table><h3>Differentiation</h3><ul><li>Support: reduce reading load and provide a small set of evidence cards while retaining the explanation demand.</li><li>Extend: ask learners to diagnose a misleading claim and design a check that would reveal the misconception.</li><li>Language: allow oral retrieval or a sketch before the written response; explicitly teach the vocabulary used in the question.</li></ul><h3>Assessment and teacher notes</h3><p>During the guided task, inspect an explanation from every learner and name the misconception before giving a correction. The final new-case response is the independent evidence. Compare it with the same criteria used in the model; use the capacity-matrix reflection as self-assessment. If time is short, reduce the number of decorative/production features and preserve modeling, individual practice and the final explanation.</p>",
+          "videos": [
+            {
+              "provider": "local",
+              "file": "media/videos/m04-v04.mp4",
+              "captions": "media/videos/m04-v04.vtt"
+            }
+          ],
+          "topics": []
+        },
+        {
+          "id": "lesson-3-3",
+          "title": "4.3 Resources and Knowledge Check",
+          "slug": "4-3-resources-and-knowledge-check",
+          "content": "<h3>Course resources</h3><ul><li><a href=\"media/resources/ecosystem-field-guide.html\">All 68 destinations: ecosystem field guide</a></li><li><a href=\"media/resources/evidence-notes.html\">Research and effect-size notes</a></li><li><a href=\"media/resources/learning-design-worksheet.html\">Learning design worksheet</a></li><li><a href=\"media/resources/feedback-practice.html\">Feedback samples and revision task</a></li><li><a href=\"media/resources/capstone-checklist.html\">Capstone self-check</a></li><li><a href=\"media/resources/game-selection-guide.html\">K–12 game selection and access guide</a></li><li><a href=\"media/resources/schoolyard-observations.csv\">Fictional schoolyard observations dataset (CSV)</a></li></ul><h3>Official help</h3><ul><li><a href=\"https://splatworks.org/studio/\">Studio directory</a> — search by a learning task.</li><li><a href=\"https://splatworks.org/wiki/for-educators.html\">Educator guidance</a> — check classroom and saving workflows.</li><li><a href=\"https://splatworks.org/legal/terms-privacy.html\">Privacy and terms</a> — distinguish browser-only work from connected services.</li></ul><h3>Knowledge check</h3><p>Answer all five questions. You need 80% to pass. Review the feedback and retry as needed. Completing this quiz does not submit or grade your practice artifact.</p>",
+          "videos": [],
+          "topics": [],
+          "quiz": {
+            "id": "quiz-3-3",
+            "pass": 80,
+            "shuffle": true,
+            "questions": [
+              {
+                "qid": "q0",
+                "type": "single",
+                "text": "Which activity most clearly involves retrieval practice?",
+                "options": [
+                  {
+                    "text": "Copying the answer from a visible flashcard",
+                    "correct": false
+                  },
+                  {
+                    "text": "Re-reading a definition silently",
+                    "correct": false
+                  },
+                  {
+                    "text": "Choosing the prettiest template",
+                    "correct": false
+                  },
+                  {
+                    "text": "Attempting an explanation before revealing the answer",
+                    "correct": true
+                  }
+                ],
+                "feedback": "Retrieval requires an attempt to bring relevant knowledge to mind before consulting the answer."
+              },
+              {
+                "qid": "q1",
+                "type": "single",
+                "text": "Which feedback is most actionable?",
+                "options": [
+                  {
+                    "text": "Add the two temperature values and explain how they support your location choice",
+                    "correct": true
+                  },
+                  {
+                    "text": "You are clever",
+                    "correct": false
+                  },
+                  {
+                    "text": "Try harder",
+                    "correct": false
+                  },
+                  {
+                    "text": "This is bad",
+                    "correct": false
+                  }
+                ],
+                "feedback": "The message identifies the missing evidence and a concrete reasoning action the learner can take."
+              },
+              {
+                "qid": "q2",
+                "type": "single",
+                "text": "A team wins a QuizSplat review game. What should the teacher do to check individual learning?",
+                "options": [
+                  {
+                    "text": "Assume every member mastered the goal",
+                    "correct": false
+                  },
+                  {
+                    "text": "Give everyone the winner’s score",
+                    "correct": false
+                  },
+                  {
+                    "text": "Collect a fresh individual response aligned to the goal",
+                    "correct": true
+                  },
+                  {
+                    "text": "Remove all feedback from the next task",
+                    "correct": false
+                  }
+                ],
+                "feedback": "A team result can hide individual differences. A fresh aligned response supplies better evidence of each learner’s understanding."
+              },
+              {
+                "qid": "q3",
+                "type": "single",
+                "text": "What does the feedback subgroup estimate d = 0.99 mean in this course?",
+                "options": [
+                  {
+                    "text": "All digital feedback has that effect",
+                    "correct": false
+                  },
+                  {
+                    "text": "One high-information subgroup in a particular meta-analysis had that estimate",
+                    "correct": true
+                  },
+                  {
+                    "text": "Students will gain 99 percentage points",
+                    "correct": false
+                  },
+                  {
+                    "text": "RubricSplat itself was tested at that value",
+                    "correct": false
+                  }
+                ],
+                "feedback": "The estimate belongs to a specific subgroup of feedback research and is not a measured product outcome or a percentage gain."
+              },
+              {
+                "qid": "q4",
+                "type": "single",
+                "text": "A learner finds every target word in a word search. What follow-up best checks vocabulary meaning?",
+                "options": [
+                  {
+                    "text": "Award subject mastery automatically",
+                    "correct": false
+                  },
+                  {
+                    "text": "Time a second word search only",
+                    "correct": false
+                  },
+                  {
+                    "text": "Ask which font they liked",
+                    "correct": false
+                  },
+                  {
+                    "text": "Ask the learner to explain and apply several words in a new example",
+                    "correct": true
+                  }
+                ],
+                "feedback": "Finding letter patterns is different from knowing a word’s meaning and applying it; use an aligned explanation or application check."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-5",
+      "key": "5",
+      "label": "Module 5",
+      "title": "Module 5: Play, Type and Transfer",
+      "summary": "Choose suitable typing and thinking games, protect learner access and confidence, and assemble a classroom-ready capstone.",
+      "lessons": [
+        {
+          "id": "lesson-4-0",
+          "title": "5.0 About the Module",
+          "slug": "5-0-about-the-module",
+          "content": "<p><img src=\"media/images/module-5-illustration.png\" alt=\"Concept illustration for module 5: Play, Type and Transfer\" style=\"width:100%;height:auto\"></p><p><em>Author-supplied concept artwork; use the real screenshots and app links for exact interfaces.</em></p><p>Play can create a useful reason to practice, but the learning goal still determines the choice. The four typing experiences are different. Paws &amp; Keys Adventure is designed for ages 4–9 with gentle progression. Story Sprint practices passages with speed, accuracy and character feedback and can import classroom text locally. Wordfall Reactor is a word-board activity with everyday words and optional subject vocabulary. Cipher Chase combines word typing with steering and arcade demands.</p>\n<p>Start with a brief readiness check: can the learner identify the requested keys, read the chosen text, use the controls and pause comfortably? Select a short practice interval and a personal accuracy goal. Do not use a public speed leaderboard as the default. Typing speed is not reading comprehension, vocabulary mastery or a disability screening measure.</p>\n<p>Use accuracy before speed. After a brief round, ask a learner to describe an error pattern and practice a troublesome combination slowly. If using a subject passage, add an independent content question that cannot be answered by copying from the display. For vocabulary games, ask for a definition, example or explanation after play.</p>\n<p>Logic games such as Tangram Packing, Flow Free, Lights Out, Untangle, Flood Fill and Dots and Boxes offer opportunities to predict and explain a strategy. SplatBot Studio adds sequencing, debugging and robot commands. Ask the learner to predict a move, test it and explain a revision. Do not assume puzzle success automatically transfers to mathematics or coding.</p>\n<p>Preview every game for the learners and local policy. Castles &amp; Catapults and Super Star Trek use conflict themes; Cipher Chase and Squirrel Run add traffic hazards. GilaSplat and Splatball are primarily arcade recreation. Fun Quiz packs need a content/reading review. These may be acceptable choices for some students and unsuitable for others; use the calmer alternatives when needed. The course’s age-band suggestions are instructional recommendations, not formal content ratings.</p>\n<p>The supplied module art is conceptual. In the actual apps, Cipher Chase is the car-and-typing experience; Story Sprint is passage practice. Follow the real screenshots and app instructions when introducing controls.</p><h3>Learning goals</h3><ul><li>I can select a typing experience based on readiness, reading demand and access needs.</li><li>I can pair a short game with a subject-learning task and an individual debrief.</li><li>I can distinguish a game score, typing fluency and transfer to curriculum learning.</li><li>I can assemble and evaluate a complete goal–model–practice–feedback–transfer lesson using selected ecosystem tools.</li></ul><h3>Time and capacity matrix</h3><p>Allow about 75 minutes including viewing, reading and practice. For each goal, record a before and after rating: 1 = new to me; 2 = can explain; 3 = can apply; 4 = can teach or adapt. Cite one artifact that supports your after-rating.</p><h3>Research lens</h3><p>A review of 222 classroom studies reports an overall Hedges’ g of 0.499 for quizzing. Comparators, timing and feedback matter; typing a displayed answer is not the same task as recalling it. <a href=\"https://scholars.hkbu.edu.hk/en/publications/testing-quizzing-boosts-classroom-learning-a-systematic-and-meta-/\">Yang et al. (2021), Testing (Quizzing) Boosts Classroom Learning</a>.</p><p>EEF summarizes this strand as high impact, averaging eight additional months of progress. Months of progress are a separate metric from d or g. Teach planning, monitoring and evaluation within subject learning. <a href=\"https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit/metacognition-and-self-regulation\">EEF, Metacognition and self-regulation</a>.</p>",
+          "videos": [],
+          "topics": []
+        },
+        {
+          "id": "lesson-4-1",
+          "title": "5.1 Explore",
+          "slug": "5-1-explore",
+          "content": "<p>Open a linked app in another tab while you work. Each short video contains a concept, a workflow and a pause-and-try prompt. Use the transcript for a text-first route. Screenshots show the reviewed local build; a current app may look different.</p><h3>Choose the right typing adventure</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Choose the right typing adventure\" poster=\"media/videos/m05-v01-poster.jpg\"><source src=\"media/videos/m05-v01.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m05-v01.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m05-v01.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m05-v01.html\">Read the full transcript</a> · <a href=\"media/videos/m05-v01.vtt\">English caption file</a></p><h3>Play, predict and explain with logic games</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Play, predict and explain with logic games\" poster=\"media/videos/m05-v02-poster.jpg\"><source src=\"media/videos/m05-v02.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m05-v02.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m05-v02.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m05-v02.html\">Read the full transcript</a> · <a href=\"media/videos/m05-v02.vtt\">English caption file</a></p><h3>Design a short game station that includes everyone</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Design a short game station that includes everyone\" poster=\"media/videos/m05-v03-poster.jpg\"><source src=\"media/videos/m05-v03.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m05-v03.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m05-v03.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m05-v03.html\">Read the full transcript</a> · <a href=\"media/videos/m05-v03.vtt\">English caption file</a></p><h3>Open the tools</h3><ul><li><a href=\"https://splatworks.org/games/typing-games/\">Typing Games</a> — Compare the four separate experiences before selecting a practice route.</li><li><a href=\"https://splatworks.org/games/paws-and-keys-adventure/\">Paws &amp; Keys Adventure</a> — Begin with gentle key practice for ready younger learners; the stated design audience is ages 4–9.</li><li><a href=\"https://splatworks.org/games/cipher-chase/\">Cipher Chase</a> — Choose for learners ready to divide attention between typing and steering; preview arcade and traffic demands.</li><li><a href=\"https://splatworks.org/games/wordfall-reactor/\">Wordfall Reactor</a> — Use word-board play with an after-play definition or application check; it is not passage typing.</li><li><a href=\"https://splatworks.org/games/story-sprint/\">Story Sprint</a> — Practice an appropriately readable passage and a personal accuracy goal, then assess content separately.</li><li><a href=\"https://splatworks.org/solutions/dotsboxes/\">Dots and Boxes</a> — Predict the effect of a move and justify a strategy; collect an explanation beyond the score.</li><li><a href=\"https://splatworks.org/solutions/memepuzzle/\">Meme Puzzle</a> — Build a puzzle with a permitted image and use the reveal as a prompt for explanation, not just completion.</li><li><a href=\"https://splatworks.org/solutions/splatbot-studio/\">SplatBot Studio</a> — Predict, run and debug a short command sequence; explain the change and try a fresh sequence.</li><li><a href=\"https://splatworks.org/games/castles/\">Castles &amp; Catapults</a> — Optional older-learner strategy/recreation; preview the siege/conflict theme and use a calm alternative if needed.</li><li><a href=\"https://splatworks.org/games/floodfill/\">Flood Fill</a> — Predict a color-merge move and explain an efficient sequence; do not rely on color alone for assessment.</li><li><a href=\"https://splatworks.org/games/flowfree/\">Flow Free</a> — Explain a non-crossing-path strategy and test it on a fresh arrangement.</li><li><a href=\"https://splatworks.org/games/funquiz/\">Fun Quiz</a> — Review the chosen themed pack for content and reading suitability before using it; trivia is not a curriculum assessment by default.</li><li><a href=\"https://splatworks.org/games/gilasplat/\">GilaSplat</a> — Optional arcade recreation; preview controls and sensory demands and avoid unsupported curriculum claims.</li><li><a href=\"https://splatworks.org/games/lightsout/\">Lights Out</a> — Predict which neighboring cells will change and explain a strategy after testing it.</li><li><a href=\"https://splatworks.org/games/splatball/\">Splatball</a> — Optional short recreation or turn-taking practice; the score does not measure subject mastery.</li><li><a href=\"https://splatworks.org/games/squirrel-run-game/\">Squirrel Run</a> — Optional recreation with a traffic-hazard theme; preview it and provide a calmer equivalent.</li><li><a href=\"https://splatworks.org/games/super-star-trek/\">Super Star Trek</a> — Optional older-student strategy with substantial reading and conflict themes; preview suitability and offer alternatives.</li><li><a href=\"https://splatworks.org/games/tangram/\">Tangram Packing</a> — Ask learners to justify rotations or spatial choices and solve a new silhouette without the original cues.</li><li><a href=\"https://splatworks.org/games/untangle/\">Untangle</a> — Predict a node move, reduce crossings and explain the reasoning on a fresh graph.</li></ul>",
+          "videos": [
+            {
+              "provider": "local",
+              "file": "media/videos/m05-v01.mp4",
+              "captions": "media/videos/m05-v01.vtt"
+            },
+            {
+              "provider": "local",
+              "file": "media/videos/m05-v02.mp4",
+              "captions": "media/videos/m05-v02.vtt"
+            },
+            {
+              "provider": "local",
+              "file": "media/videos/m05-v03.mp4",
+              "captions": "media/videos/m05-v03.vtt"
+            }
+          ],
+          "topics": []
+        },
+        {
+          "id": "lesson-4-2",
+          "title": "5.2 Practice On Your Own",
+          "slug": "5-2-practice-on-your-own",
+          "content": "<h3>Build your SplatWorks Educator capstone</h3><p>Create a 40–50 minute classroom lesson for a specific subject and grade band. Reuse your strongest artifacts from the course. The final product should be teachable by a colleague who has not seen your planning.</p>\n<ol><li>State the content goal, prerequisite knowledge, local standard you already teach and two or three observable success criteria. Name the misconception you expect.</li><li>Select a small toolchain: one thinking/modeling tool, one product/evidence tool and one assessment/feedback tool. A game is an optional short practice station, not the organizing purpose of the entire lesson.</li><li>Include a complete worked example, a partially supported attempt and a new independent response. Specify teacher and student actions with timings.</li><li>Add a three- to five-minute game station only if you can name its purpose. Choose a learner-appropriate typing or logic game, describe the controls, provide a calmer/off-screen alternative and write one debrief question.</li><li>Include one retrieval prompt before practice and a different transfer prompt after it. Write a feedback message and reserve a revision window.</li><li>Test the workflow with an anonymous sample. Reopen the project/export files, check captions and links, and make sure a learner can participate without sound, rapid typing or a headset.</li><li>Score the capstone with <a href=\"media/resources/capstone-checklist.html\">capstone checklist</a>. Revise any criterion marked “not yet”. Save the lesson plan, artifacts and one paragraph explaining the evidence you will examine after teaching.</li></ol>\n<p><strong>Deliverable:</strong> a classroom lesson package with a goal, timed sequence, model, practice artifact, assessment, access/fallback plan and a transfer check. The facilitator may collect it through a separately configured LMS assignment; this course’s text does not create an upload automatically.</p>\n<p><strong>Self-check:</strong> the lesson has evidence of learning from each student, the game has a defined role or is omitted, and the feedback changes the work. Use the badge only as a completion artifact, not as proof of externally accredited certification.</p>\n<p><strong>Reflect:</strong> After teaching, compare initial and final explanations using the same criteria. What changed in the reasoning? What would you change next time?</p><h3>Capstone: bring the ecosystem into your classroom</h3><p>Optional video overview. Original narrated visual mini-lesson. Pause to try the prompts in the linked app. Synthetic English narration; captions are also burned into the video.</p><div class=\"video-embed\"><video controls preload=\"metadata\" playsinline title=\"Capstone: bring the ecosystem into your classroom\" poster=\"media/videos/m05-v04-poster.jpg\"><source src=\"media/videos/m05-v04.mp4\" type=\"video/mp4\"><track kind=\"captions\" srclang=\"en\" label=\"English\" src=\"media/videos/m05-v04.vtt\">Your browser cannot display the inline video.</video></div><p><a href=\"media/videos/m05-v04.mp4\">Open or download the captioned video</a> · <a href=\"media/transcripts/m05-v04.html\">Read the full transcript</a> · <a href=\"media/videos/m05-v04.vtt\">English caption file</a></p><h3>Ready-to-adapt classroom sequence</h3><p>Choose the content standard and grade expectations already used in your setting. The timings below describe one classroom adaptation, separate from your course study time.</p><table><tr><th>Phase</th><th>Minutes</th><th>Teacher action</th><th>Student action</th></tr><tr><td>Hook and retrieve</td><td>5</td><td>Ask learners to predict a move, explain a term or retrieve a prior idea before opening the game.</td><td>Students commit a brief individual response.</td></tr><tr><td>Model</td><td>7</td><td>Demonstrate the controls and one think-aloud; explain the accuracy/strategy goal.</td><td>Students restate the goal and identify a safe stopping point.</td></tr><tr><td>Short practice</td><td>8</td><td>Run two short rounds with a pause to discuss an error pattern. Offer a non-timed or off-screen route.</td><td>Students practice deliberately, monitor accuracy or reasoning and record one adjustment.</td></tr><tr><td>Transfer</td><td>15</td><td>Give a fresh content task requiring the intended learning without the game’s cues.</td><td>Students produce an individual explanation, solution or new sequence.</td></tr><tr><td>Feedback and closure</td><td>10</td><td>Give criterion-based feedback and a revision window.</td><td>Students revise and describe what changed in their strategy or understanding.</td></tr></table><h3>Differentiation</h3><ul><li>Support: select a gentler game, shorter passage and untimed interval; allow pointing, partner input or an equivalent paper puzzle.</li><li>Extend: ask learners to explain an invariant, predict the effect of a move, debug a sequence or design a new transfer problem.</li><li>Language: preview the game’s vocabulary and controls; pair a learner with a patient partner and permit an oral debrief.</li></ul><h3>Assessment and teacher notes</h3><p>During the guided task, inspect an explanation from every learner and name the misconception before giving a correction. The final new-case response is the independent evidence. Compare it with the same criteria used in the model; use the capacity-matrix reflection as self-assessment. If time is short, reduce the number of decorative/production features and preserve modeling, individual practice and the final explanation.</p>",
+          "videos": [
+            {
+              "provider": "local",
+              "file": "media/videos/m05-v04.mp4",
+              "captions": "media/videos/m05-v04.vtt"
+            }
+          ],
+          "topics": []
+        },
+        {
+          "id": "lesson-4-3",
+          "title": "5.3 Resources and Knowledge Check",
+          "slug": "5-3-resources-and-knowledge-check",
+          "content": "<h3>Course resources</h3><ul><li><a href=\"media/resources/ecosystem-field-guide.html\">All 68 destinations: ecosystem field guide</a></li><li><a href=\"media/resources/evidence-notes.html\">Research and effect-size notes</a></li><li><a href=\"media/resources/learning-design-worksheet.html\">Learning design worksheet</a></li><li><a href=\"media/resources/feedback-practice.html\">Feedback samples and revision task</a></li><li><a href=\"media/resources/capstone-checklist.html\">Capstone self-check</a></li><li><a href=\"media/resources/game-selection-guide.html\">K–12 game selection and access guide</a></li><li><a href=\"media/resources/schoolyard-observations.csv\">Fictional schoolyard observations dataset (CSV)</a></li></ul><h3>Official help</h3><ul><li><a href=\"https://splatworks.org/studio/\">Studio directory</a> — search by a learning task.</li><li><a href=\"https://splatworks.org/wiki/for-educators.html\">Educator guidance</a> — check classroom and saving workflows.</li><li><a href=\"https://splatworks.org/legal/terms-privacy.html\">Privacy and terms</a> — distinguish browser-only work from connected services.</li></ul><h3>Knowledge check</h3><p>Answer all five questions. You need 80% to pass. Review the feedback and retry as needed. Completing this quiz does not submit or grade your practice artifact.</p>",
+          "videos": [],
+          "topics": [],
+          "quiz": {
+            "id": "quiz-4-3",
+            "pass": 80,
+            "shuffle": true,
+            "questions": [
+              {
+                "qid": "q0",
+                "type": "single",
+                "text": "A beginning typist needs a gentle starting experience. Which is the best first option to preview?",
+                "options": [
+                  {
+                    "text": "Super Star Trek with no introduction",
+                    "correct": false
+                  },
+                  {
+                    "text": "Paws & Keys Adventure",
+                    "correct": true
+                  },
+                  {
+                    "text": "A public words-per-minute race",
+                    "correct": false
+                  },
+                  {
+                    "text": "The most difficult custom Story Sprint passage",
+                    "correct": false
+                  }
+                ],
+                "feedback": "Paws & Keys is designed for young beginners; still check readiness, access and local suitability for the particular learner."
+              },
+              {
+                "qid": "q1",
+                "type": "single",
+                "text": "Which statement correctly describes the actual apps?",
+                "options": [
+                  {
+                    "text": "Story Sprint is the car-steering arcade game",
+                    "correct": false
+                  },
+                  {
+                    "text": "Cipher Chase is a platform-jumping storybook",
+                    "correct": false
+                  },
+                  {
+                    "text": "Wordfall Reactor is a video editor",
+                    "correct": false
+                  },
+                  {
+                    "text": "Cipher Chase combines typing and steering; Story Sprint practices passages",
+                    "correct": true
+                  }
+                ],
+                "feedback": "The concept illustration is not a screenshot. The real game descriptions and controls distinguish the experiences."
+              },
+              {
+                "qid": "q2",
+                "type": "single",
+                "text": "A student’s typing speed rises. What can the teacher conclude?",
+                "options": [
+                  {
+                    "text": "The measured typing performance improved; content comprehension needs its own check",
+                    "correct": true
+                  },
+                  {
+                    "text": "The student mastered all vocabulary in the passage",
+                    "correct": false
+                  },
+                  {
+                    "text": "The student’s reading level increased by a year",
+                    "correct": false
+                  },
+                  {
+                    "text": "No further evidence is needed",
+                    "correct": false
+                  }
+                ],
+                "feedback": "Typing performance and subject understanding are different outcomes. Use an aligned independent task to assess comprehension."
+              },
+              {
+                "qid": "q3",
+                "type": "single",
+                "text": "Which use of a logic game is most instructionally purposeful?",
+                "options": [
+                  {
+                    "text": "Give unlimited play and infer mathematics mastery",
+                    "correct": false
+                  },
+                  {
+                    "text": "Grade learners only by their final score",
+                    "correct": false
+                  },
+                  {
+                    "text": "Ask learners to predict, test and explain a strategy, then try a new problem",
+                    "correct": true
+                  },
+                  {
+                    "text": "Use it because every game has a large effect size",
+                    "correct": false
+                  }
+                ],
+                "feedback": "A prediction–test–explain routine supplies evidence about strategy; a fresh problem checks possible transfer."
+              },
+              {
+                "qid": "q4",
+                "type": "single",
+                "text": "What makes the capstone ready for a classroom pilot?",
+                "options": [
+                  {
+                    "text": "It opens every app once",
+                    "correct": false
+                  },
+                  {
+                    "text": "It includes aligned goals, a model, practice, feedback, individual evidence and access/fallback plans",
+                    "correct": true
+                  },
+                  {
+                    "text": "It has the longest video",
+                    "correct": false
+                  },
+                  {
+                    "text": "It awards credit before anyone reviews the work",
+                    "correct": false
+                  }
+                ],
+                "feedback": "The capstone is a coherent learning sequence with verifiable access and evidence, not a tour measured by tool count."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

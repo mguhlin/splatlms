@@ -1,7 +1,7 @@
 /* ===========================================================================
-   Sapiqo Course Reader
+   SplatLMS Course Reader
    Loads course.json, renders the sidebar + lesson view, tracks progress in
-   localStorage. Progress schema is intentionally simple so a future Sapiqo
+   localStorage. Progress schema is intentionally simple so a future SplatLMS
    layer can read/write the same keys per authenticated user.
    =========================================================================== */
 (function () {
@@ -21,13 +21,13 @@
 
   let COURSE = null;
   let FLAT = []; // flat ordered list of steps: {type, moduleKey, lesson, topic?, id, title}
-  let PROGRESS_KEY = "sapiqo-course-progress";
+  let PROGRESS_KEY = "splatlms-course-progress";
 
   function isAuthorPreview() {
     return !!(COURSE && COURSE.settings && COURSE.settings.author_preview);
   }
 
-  // --- Progress store (localStorage; Sapiqo-compatible shape) ---------------
+  // --- Progress store (localStorage; SplatLMS-compatible shape) ---------------
   const Progress = {
     load() {
       if (isAuthorPreview()) return {};
@@ -62,8 +62,8 @@
     },
   };
 
-  // --- Optional Sapiqo sync -------------------------------------------------
-  // When this course is served inside Sapiqo and the learner is signed in,
+  // --- Optional SplatLMS sync -------------------------------------------------
+  // When this course is served inside SplatLMS and the learner is signed in,
   // completion is mirrored to the server so it counts toward their badge and is
   // visible on any device. When served standalone, everything falls back to the
   // localStorage store above with no network calls.
@@ -817,7 +817,7 @@
   function applyBrand(brand, authed) {
     if (!brand) return;
     const name = brand.catalog_name || "Courses";
-    // When running inside Sapiqo and signed in, the brand icon returns to the
+    // When running inside SplatLMS and signed in, the brand icon returns to the
     // learner Dashboard (not the public course catalog).
     if (authed) {
       const dash = new URL("../../dashboard", location.href).href;
@@ -835,8 +835,8 @@
         if (label) label.textContent = name;
       }
     });
-    if (document.title.indexOf("Sapiqo Courses") !== -1)
-      document.title = document.title.replace(/Sapiqo Courses/g, name);
+    if (document.title.indexOf("SplatLMS Courses") !== -1)
+      document.title = document.title.replace(/SplatLMS Courses/g, name);
   }
   function hydrateBrand() {
     try {
@@ -850,7 +850,7 @@
   function boot(course) {
     hydrateBrand();
     COURSE = course;
-    PROGRESS_KEY = "sapiqo-course-progress::" + course.slug;
+    PROGRESS_KEY = "splatlms-course-progress::" + course.slug;
     Progress._cache = null;
     els.courseTitle.textContent = course.title;
     document.title = course.title;
@@ -865,7 +865,7 @@
     if (active && stepById(active)) selectLesson(active, false);
     else renderHome();
 
-    // Enable LMS sync if this course is running inside Sapiqo. Re-render once
+    // Enable LMS sync if this course is running inside SplatLMS. Re-render once
     // server progress is hydrated so checkmarks and bars reflect the account.
     LMS.init(course.slug).then((on) => {
       if (on) {

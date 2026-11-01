@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-foreach (['helpers','db','auth','account_security','courses','quiz'] as $name) require_once __DIR__.'/../sapiqo/app/'.$name.'.php';
+foreach (['helpers','db','auth','account_security','courses','quiz'] as $name) require_once __DIR__.'/../splatlms/app/'.$name.'.php';
 // Wait on a shared barrier so workers contend on the same DB rows.
 while (!is_file($argv[2])) usleep(1000);
 if ($argv[1]==='reset') echo reset_password_once($argv[3],'Concurrent-password-123')?'1':'0';

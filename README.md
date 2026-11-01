@@ -1,160 +1,44 @@
-# Sapiqo LMS
+# SplatLMS
 
-A focused, self-hostable learning management system. Pure PHP + PDO (SQLite by
-default, MySQL/MariaDB for production) — no framework, no Composer, no npm. Drop
-in courses, author in the browser, enroll learners, run assessments and forums,
-and issue badges and CPE certificates.
+The SplatWorks learning management system. SplatLMS is a separately branded, self-hostable product adapted from **Sapiqo LMS by Miguel Guhlin**. Its first bundled course is **SplatWorks Educator**.
 
-**[Project website](https://mguhlin.github.io/sapiqolms/) ·
-[Download](https://github.com/mguhlin/sapiqolms/releases) ·
-[User manual](sapiqo/docs/manual/README.md) · [Code audit](docs/CODE_AUDIT.md) ·
-[Planned roadmap](docs/ROADMAP.md)**
+Version **1.0.0** · © 2026 Miguel Guhlin · [CC BY-SA 4.0](LICENSE)
 
-Version **1.13.1**. Original project material: **© 2026 Miguel Guhlin · CC BY-SA 4.0**.
+## Run SplatLMS
 
-GitHub Pages hosts the project introduction. To run the LMS, install it on a PHP
-server or use Docker; Pages cannot execute PHP or store learner accounts.
-
-## What's inside (highlights)
-
-- **Visual course editor** — drag-and-drop modules/pages, block-based content
-  (rich text with a full word-processor toolbar + tables, Markdown, images,
-  video/embeds, files), image/column resize, and a per-course Resource Center.
-- **Authoring & interchange** — build from Markdown or the GUI; import/export
-  Common Cartridge, SCORM, packages, and OneRoster; export to Canvas/Blackboard/
-  Sakai/Moodle with per-platform guidance.
-- **Assessments** — quizzes (multiple types, banks, attempts) + a custom
-  gradebook scores grid with letter grades and CSV export; text/file assignments,
-  drafts, resubmissions, reusable rubrics, and instructor feedback.
-- **Discussion forums** — named, threaded forums added to modules like pages,
-  each with a rich prompt; nested replies, reactions, moderation; plus a global
-  announcements board.
-- **Accounts & access** — admins, course developers, and group managers with
-  least-privilege permissions; user impersonation for support; enrollment expiry
-  with graduated reminders and a permanent transcript (badges/CPE retained).
-- **Organizations & subscriptions** — first-class organizations (districts/clients)
-  that own groups and members; subscribe a whole org or an individual group to
-  courses to auto-enroll cohorts; org- and group-level managers with per-grant
-  permissions.
-- **Reports & completions** — dashboards, filters, and filter-aware CSV exports;
-  one-click badge/certificate/transcript access.
-- **Integrations** — SSO (Google, Microsoft, Clever, ClassLink), LTI 1.3, a REST
-  API, SCORM, and OneRoster.
-- **Account security** — authenticator MFA, single-use recovery codes, session
-  revocation, explicit SSO linking, and scoped API keys.
-- **Teaching workflows** — course instructor grants, cohort schedules, late
-  policies, completion requirements, and learners-needing-attention reports.
-- **Operations** — white-label branding + themes + i18n, full mobile
-  responsiveness, an organized Admin menu, and a WordPress-style in-browser
-  software updater with backup/rollback.
-
-## Security
-
-The publication includes a source audit and regression tests for authentication,
-course access, progress, quizzes, archives, and backups. Read the
-[audit findings and limitations](docs/CODE_AUDIT.md) and [security policy](SECURITY.md).
-Use HTTPS, your own administrator credentials, MFA, and a canonical `public_url`.
-See [1.13 verification](docs/RELEASE_1.13.md), [operations](docs/OPERATIONS.md),
-and the [compatibility matrix](docs/COMPATIBILITY.md) before enabling integrations.
-
-## Layout
-
-    sapiqo/        The application (replaceable on upgrade). Code, admin,
-                   course creator, CLI tools in bin/.
-    sapiqo-data/   Persistent, writable data — the SQLite DB, uploads, badges,
-                   branding, LTI keys. Starts empty; created on first run.
-    content/       Your courses, one folder per course (each with a course.json).
-                   Starts blank except content/assets/ (the shared reader).
-    installer/     Turnkey install for Linux, Windows, and Docker.
-
-## Quick start (turnkey)
-
-Linux/macOS:
-
-    bash installer/install.sh        # checks PHP, sets up data + admin account
-    bash installer/serve.sh       # http://localhost:8000
-
-Windows (PowerShell):
-
-    .\installer\install.ps1
-    .\installer\serve.bat
-
-Docker (bundles every extension):
-
-    export ADMIN_EMAIL='you@example.org'
-    read -rsp 'Administrator password: ' ADMIN_PASSWORD; echo
-    export ADMIN_PASSWORD
-    docker compose -f installer/docker-compose.yml up -d --build
-    # Open http://localhost:8080
-
-Run the pre-flight check any time:
-
-    php installer/preflight.php
-
-## First run & credentials
-
-Sapiqo ships with an **empty database and no default login** — the admin
-account is created the first time you install, from credentials *you* provide.
-There is no built-in username/password to guess.
-
-- **Installer (`install.sh` / `install.ps1`):** you pass the admin email and
-  password, e.g.
-
-      bash installer/install.sh --email you@example.org --password 'ChangeMe123!' \
-                             --first Admin --last User
-
-  Run it with no flags for an interactive prompt. If you use `--yes` without a
-  `--password`, a strong random password is generated and printed once — copy it.
-
-- **Docker:** requires `ADMIN_EMAIL` and `ADMIN_PASSWORD` environment variables.
-  No default administrator password is shipped. Port 8080 binds to localhost;
-  use a configured HTTPS reverse proxy for public access.
-
-- **Manual / scripted:** create (or reset) an admin any time with
-
-      php sapiqo/bin/setup.php --email you@example.org --password 'ChangeMe123!' \
-                              --first Admin --last User
-
-  Re-running is safe — an existing admin email is updated, not duplicated.
-
-Whatever method you use, **change the password after first sign-in** and run
-over HTTPS in production. See `installer/README.md` for the full install matrix
-and `sapiqo/README.md` for the security overview.
-
-## Add a course
-
-Author one Markdown file and build it into a course folder:
-
-    python3 sapiqo/creator/build_course.py my-course.md
-    # -> writes content/my-course/ (course.json + reader shell + media)
-
-Sapiqo auto-discovers any subfolder of content/ that has a course.json.
-You can also import Common Cartridge (.imscc), SCORM, and course packages
-from Admin -> Imports.
-
-## Branding
-
-Everything visual is white-label. Sign in as the admin and open
-Admin -> Settings to set the organization name, logo, colors, theme, default
-language, and certificate signatory / CPE provider line.
-
-## License
-
-Sapiqo LMS © 2026 Miguel Guhlin, licensed under
-[Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
-You may share and adapt it, including commercially, as long as you give
-attribution to "Sapiqo LMS by Miguel Guhlin" and license your derivatives under
-the same terms. See [`LICENSE`](LICENSE) for details.
-
-Bundled third-party fonts retain their own licenses and notices; see
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-
-## Development and contributions
+Requires PHP 8.1+ with PDO SQLite (or MariaDB/MySQL), mbstring, GD, fileinfo, Phar and the extensions checked by the installer. The runtime does not require Node or Composer.
 
 ```bash
-python3 tests/run.py
+bash installer/install.sh
+bash installer/serve.sh 8000
 ```
 
-The suite uses temporary data and a localhost PHP server. See
-[CONTRIBUTING.md](CONTRIBUTING.md) for requirements and verification scope.
-GitHub Actions runs checks and deploys only `site/` to Pages after they pass.
+The installer creates an administrator from credentials you supply. No default login or real user database is shipped. Open http://localhost:8000 after setup. For a scripted setup, use `php splatlms/bin/setup.php --from-env` with ADMIN_EMAIL and ADMIN_PASSWORD set in your environment.
+
+Docker: set ADMIN_EMAIL and ADMIN_PASSWORD, then run `docker compose -f installer/docker-compose.yml up -d --build`. It binds to localhost:8080. Use your configured HTTPS host for production. GitHub Pages serves the product introduction only; it cannot run the PHP LMS or store learner records.
+
+## First course
+
+`content/splatworks-educator/` contains the complete first course: five modules, twenty lesson sections, five quizzes/25 questions, a transparent inverted-triangle badge, a field guide to all 68 reviewed ecosystem destinations, worksheets and illustrations.
+
+Twenty **optional video overviews** use original scripts, app screenshots and synthetic English narration. They are narrated slides, not live screencasts. Burned-in captions, WebVTT files and complete transcripts are included. Written lessons and activities remain complete without watching them. The five-module structure covers getting started; DrawSplat teaching/creation; office apps and media; practice/feedback; typing, suitable K–12 games and a capstone.
+
+The bundled course is published as the first catalog offering. Completion uses 20 lesson steps and five 80% knowledge checks. Practice/capstone artifacts are self-checked unless an instructor creates an assignment. CPE/GT credit remains 0; the badge is not external accreditation.
+
+## Product identity and isolation
+
+- `splatlms/` — replaceable application code.
+- `splatlms-data/` — persistent local data, credentials, uploads and configuration (not committed).
+- `content/` — course folders and shared reader assets.
+- `SPLATLMS_DATA` and `SPLATLMS_COURSES` — optional data/content overrides.
+- Purple, golden yellow, white and charcoal match SplatWorks; brand assets and course illustrations are bundled locally.
+
+The SplatLMS edition label prevents accidentally installing an updater package intended for a different branded edition. Original Sapiqo installations and their data are untouched. This is a new product namespace, not an automatic migration of existing learner records.
+
+## Features
+
+Learner accounts, enrollment, course authoring, quizzes, assignments/rubrics, forums, organizations/groups, badges/certificates, transcripts, reports, imports/exports, MFA, scoped API access, SSO configuration and an updater come from the Sapiqo foundation. Inline local video/audio/caption support is preserved through the course HTML sanitizer in this edition. Provider integrations still require real configuration and appropriate end-to-end validation.
+
+## Checks and provenance
+
+Run `python3 tests/run.py`, `python3 tests/concurrency.py`, and the browser checks documented in [CONTRIBUTING.md](CONTRIBUTING.md). Current product-specific scope and results are in [docs/SPLATLMS.md](docs/SPLATLMS.md). Inherited dated audits under docs/ describe upstream Sapiqo, not a new SplatLMS certification. See [UPSTREAM.md](UPSTREAM.md) for attribution and asset provenance and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for third-party licenses.

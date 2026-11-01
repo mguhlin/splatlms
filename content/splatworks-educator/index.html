@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SplatWorks Educator · Courses</title>
+  <meta name="description" content="Create, teach, assess and play with evidence-informed K–12 learning routines." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/theme.css" />
+  <link rel="stylesheet" href="../assets/css/reader.css" />
+</head>
+<body>
+  <a class="skip-link" href="#reader">Skip to lesson content</a>
+  <header class="topbar">
+    <a class="brand" href="../index.html"><span class="brand__mark">Co</span><span>Courses</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle course navigation">Contents</button>
+  </header>
+  <div class="app" id="app" data-nav-open="false">
+    <aside class="sidebar" aria-label="Course navigation">
+      <div class="sidebar__head">
+        <a class="brand" href="../index.html"><span class="brand__mark">Co</span><span>Courses</span></a>
+        <h1 class="sidebar__course-title" id="courseTitle">Loading…</h1>
+        <div class="sidebar__progress-meta"><span id="sideProgressCount">0 / 0</span><strong id="sideProgressPct">0%</strong></div>
+        <div class="progress progress--on-navy"><div class="progress__bar" id="sideProgressBar"></div></div>
+      </div>
+      <nav class="sidebar__nav" id="nav" aria-label="Modules and lessons"></nav>
+    </aside>
+    <main class="reader" id="reader" tabindex="-1"></main>
+    <div class="backdrop" id="backdrop"></div>
+  </div>
+  <script src="../assets/js/reader.js"></script>
+</body>
+</html>

@@ -1,9 +1,9 @@
-# Sapiqo installer
+# SplatLMS installer
 
-Everything needed to stand up Sapiqo on a server. **This folder is only used at
+Everything needed to stand up SplatLMS on a server. **This folder is only used at
 install time — you can delete it afterward** (keep it if you run the Docker setup).
 
-Sapiqo is plain PHP + PDO, no Composer. It runs on SQLite out of the box (zero
+SplatLMS is plain PHP + PDO, no Composer. It runs on SQLite out of the box (zero
 config) or MySQL/MariaDB for production.
 
 ---
@@ -21,7 +21,7 @@ docker compose -f installer/docker-compose.yml up -d --build
 # open http://localhost:8080
 ```
 
-Data persists in the `sapiqo-data` volume; courses persist in the host `content/`
+Data persists in the `splatlms-data` volume; courses persist in the host `content/`
 folder (bind-mounted). Administrator credentials are required environment
 variables; no default password is shipped. The port binds to localhost. Configure
 an HTTPS reverse proxy before exposing the installation publicly.
@@ -40,7 +40,7 @@ bash installer/install.sh --yes --email you@district.org --password 'Secret123' 
 ```
 
 The installer runs a pre-flight check, offers to install missing extensions
-(apt/dnf/yum/zypper/brew), writes `sapiqo-data/config.local.php`, builds the
+(apt/dnf/yum/zypper/brew), writes `splatlms-data/config.local.php`, builds the
 database, and creates the administrator.
 
 Run it:
@@ -58,7 +58,7 @@ given a MySQL admin (root) login — no manual `CREATE DATABASE` needed. Non-
 interactive equivalent:
 ```bash
 bash installer/install.sh --db mysql --create-db \
-  --mysql-host 127.0.0.1 --mysql-db sapiqo --mysql-user sapiqo --mysql-pass 'AppSecret' \
+  --mysql-host 127.0.0.1 --mysql-db splatlms --mysql-user splatlms --mysql-pass 'AppSecret' \
   --mysql-admin root --mysql-admin-pass 'RootSecret' \
   --email you@district.org --password 'AdminPass' --yes
 ```
@@ -97,17 +97,17 @@ Missing recommended extensions only degrade optional features; the app still run
 
 | File | Purpose |
 |------|---------|
-| `apache-vhost.conf` | Apache virtual host (docroot = `sapiqo/public`, `AllowOverride All`) |
+| `apache-vhost.conf` | Apache virtual host (docroot = `splatlms/public`, `AllowOverride All`) |
 | `nginx.conf` | nginx + PHP-FPM server block |
-| `sapiqo.service` | systemd unit (built-in server behind a proxy) |
+| `splatlms.service` | systemd unit (built-in server behind a proxy) |
 | `crontab.example` | nightly enrollment-expiry sweep + backup |
 
-**Always** keep the document root at `sapiqo/public/`; the data folder
-(`sapiqo-data/`) and course content (`content/`) stay outside the web root.
+**Always** keep the document root at `splatlms/public/`; the data folder
+(`splatlms-data/`) and course content (`content/`) stay outside the web root.
 Terminate TLS at your web server or proxy for production (HTTPS is required for
 real LTI 1.3 launches).
 
 ## Upgrading
 
-Replace the `sapiqo/` folder with a new version. `sapiqo-data/` and `content/`
+Replace the `splatlms/` folder with a new version. `splatlms-data/` and `content/`
 are untouched; schema migrations apply automatically on the next request.
