@@ -1067,4 +1067,3 @@ Q: What makes the capstone ready for a classroom pilot?
 feedback: The capstone is a coherent learning sequence with verifiable access and evidence, not a tour measured by tool count.
 
 @endquiz
-
