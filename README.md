@@ -2,7 +2,7 @@
 
 The SplatWorks learning management system. SplatLMS is a separately branded, self-hostable product adapted from **Sapiqo LMS by Miguel Guhlin**. Its first bundled course is **SplatWorks Educator**.
 
-Version **1.0.0** · © 2026 Miguel Guhlin · [CC BY-SA 4.0](LICENSE)
+Version **1.0.0** · © Miguel Guhlin · [CC BY-SA 4.0](LICENSE)
 
 ## Run SplatLMS
 

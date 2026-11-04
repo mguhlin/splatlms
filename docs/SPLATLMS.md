@@ -1,6 +1,6 @@
 # SplatLMS 1.0.0 implementation and verification
 
-Created October 31, 2026 from Sapiqo LMS 1.13.1. The original project attribution/license remains in LICENSE, UPSTREAM.md and the application footer.
+Adapted from Sapiqo LMS 1.13.1. The original project attribution/license remains in LICENSE, UPSTREAM.md and the application footer.
 
 The SplatWorks visual tokens are purple #6d38e8, deep purple #4720a4, charcoal #172033, golden yellow #f5b942, pale lavender #f8f6fc and white. The system UI type stack follows SplatWorks. A white brand header and prominent classroom course artwork connect the LMS to the ecosystem without changing the established admin workflows.
 

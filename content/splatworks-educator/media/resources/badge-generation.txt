@@ -1,4 +1,4 @@
-Generated using the built-in image_gen tool on 2026-10-31.
+Generated using the built-in image_gen tool.
 Prompt:
 Use case: logo-brand. Asset type: a finished digital course achievement badge, transparent PNG.
 Primary request: Create a professional SplatWorks Educator badge shaped as a broad UPSIDE-DOWN EQUILATERAL TRIANGLE: a flat horizontal top edge, two sloping sides meeting at one sharp bottom point. The overall silhouette MUST be an inverted triangle, never an upright triangle, shield, circle, or pentagon. Center it with comfortable transparent margins.

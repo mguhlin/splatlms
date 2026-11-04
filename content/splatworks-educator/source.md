@@ -24,7 +24,7 @@ about: Build a classroom-ready learning experience with the SplatWorks ecosystem
 
 This is professional learning for K–12 teachers, librarians, coaches and instructional leaders. You will build a small classroom learning experience across five modules. Use a laptop or Chromebook with a current browser, headphones if helpful, and permission to download files. A microphone is optional. You can complete the activities without student accounts or identifiable student work.
 
-SplatWorks is the whole ecosystem: the DrawSplat whiteboard, five office applications, the PlanSplat planner, standalone tools, media editors, classroom utilities and games. The live Studio registry reviewed on October 31, 2026 lists 68 destinations. This course includes every registry destination in its linked field guide. Some tools deserve a full activity; others are useful options for a specific task.
+SplatWorks is the whole ecosystem: the DrawSplat whiteboard, five office applications, the PlanSplat planner, standalone tools, media editors, classroom utilities and games. The live Studio registry lists 68 destinations. This course includes every registry destination in its linked field guide. Some tools deserve a full activity; others are useful options for a specific task.
 
 Start with this transfer question: **What thinking should students do, and what evidence would show that they did it?** A compelling interface is helpful only when students use it to explain, retrieve, compare, practice or revise. The effect-size figures in this course describe research on instructional approaches, not measured effects of SplatWorks products. Estimates from different syntheses are not a league table, and they cannot be added together to predict learning gains.
 

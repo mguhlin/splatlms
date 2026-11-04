@@ -1,6 +1,6 @@
 # SplatWorks Educator
 
-A complete five-module, self-paced professional-learning course for K–12 educators, built on October 31, 2026. The course follows the native JSON contract reviewed in the earlier `course.md` instructions.
+A complete five-module, self-paced professional-learning course for K–12 educators. The course follows the native JSON contract reviewed in the earlier `course.md` instructions.
 
 ## Start here
 
