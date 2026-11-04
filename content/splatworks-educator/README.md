@@ -52,4 +52,4 @@ If the archive exceeds your server’s request limit, have the administrator inc
 
 See `validation-report.json` for checks performed on this delivery. The report covers native import/discovery/quiz grading in isolated instances of both LMSs, package paths, all bundled file references, media format/decoding, image loading, caption timing, the browser preview and public ecosystem links. It distinguishes inline playback in GopherLMS from Sapiqo’s direct-link fallback. No live courses, student records or repository files were changed.
 
-The final research, source and asset review date is October 31, 2026. Recheck product features and public links before a later rollout.
+Recheck product features and public links before a later rollout.
